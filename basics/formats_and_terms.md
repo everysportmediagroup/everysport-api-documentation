@@ -39,8 +39,7 @@ Represents a team, regardless of sport.
 ## Event object format
 A generic object that may represent a game/match regardless of sport. 
 
-The Event object includes the following data:
-
+Includes the following data:
 * id - a unique event id, integer
 * startDate - scheduled start date of the event, Date long format
 * visitorScore - score of visiting team, integer or null
@@ -50,13 +49,21 @@ The Event object includes the following data:
 * round - the round in which the game belongs, integer or null 
 
 ## Team Stats object format
+Used to represent the results and stats for the team, for example, currently in the league table.  
 
+Different teams use different sets of stats data. For example, while most leagues have Won, Loss and Draws, some leagues also have Overtime Loss and Overtime Won. 
+The calculation of total points is also league-dependent. 
+
+The Stats objects may include (league-dependant) the following data:
 * gp - games played, integer
 * w - won, integer
 * d - draws, integer
 * l - loss, integer
 * ol - overtime loss, integer
+* ow - overtime won, integer
 * gf - goals forward, integer
 * ga - goals against, integer
 * gd - goals differential, integer
 * pts - points, integer
+
+Note that gp = w + d + l + ol + ow and that gd = gf - gd.
