@@ -3,7 +3,11 @@
     GET leagues/:id/standings
 
 ## Description
-Returns a list of the current standings (i.e. the Table) for the league. 
+Returns a list of the current standings (i.e. the tables) for the league. 
+
+A league may contain one or many groups. For example, the NHL league has several groups, such as the conferences (Eastern and Western) and divisions (Atlantic, Pacific, etc.). One team may belong to more than one group. Most leagues, however, has only one group. 
+
+The league standings, commonly visualized as a table, is essentially a list of the teams and their respective stats, sorted by one of the stats attributes, normally the total points. 
 
 ## Parameters
 * id (required) - The League ID
@@ -14,7 +18,7 @@ Returns a list of the current standings (i.e. the Table) for the league.
 ## Return format
 An object with the following keys and values:
 * credits - a Credits object
-* groups - a list of one or many Groups objects. For example, in NHL one group is the "Western Conference" and another is "Atlantic Division". One team may belong to more than one group.  
+* groups - a list of one or many Groups objects.   
 
 ### Group object
 A Group object has the following data: 
@@ -25,6 +29,17 @@ A Group object has the following data:
 A Standings object has the following data: 
 * team - a Team Object in short format
 * stats - a Team Stats Object  
+
+## Example
+
+	{ credits: .. ,
+	  groups: [
+		{ 'name' : 'Western Conference',
+      'standings' : [
+				{ 'team' : …
+   			{ 'stats' : …
+
+
 
 
 
