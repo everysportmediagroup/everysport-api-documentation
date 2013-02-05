@@ -34,13 +34,13 @@ This license is subject to the following conditions and restrictions:
 13. Everysport will be your exclusive sport data provider. You agree not to combine our data with any other sport data, including data from a third-party source, or user-generated or manually-added content.
 
 ## Indemnity
-You agree to hold harmless and indemnify Everysport and its subsidiaries, affiliates, officers, agents, employees, and suppliers, from and against any third party claim arising from or in any way related to your usage of the Everysport API or Everysport Data, violation of these API Terms or other actions connected with use of Everysport Services, including any liability or expense arising from all claims, losses, damages (actual and consequential), suits, judgments, litigation costs and attorneys’ fees, of every kind attorneysnd nature. In such a case, Everysport will provide You with written notice of such claim, suit or action.
+You agree to hold harmless and indemnify Everysport and its subsidiaries, affiliates, officers, agents, employees, and suppliers, from and against any third party claim arising from or in any way related to your usage of the Everysport API or Everysport Data, violation of these API Terms or other actions connected with use of Everysport Services, including any liability or expense arising from all claims, losses, damages (actual and consequential), suits, judgments, litigation costs and attorneys’ fees, of every kind and nature. In such a case, Everysport will provide You with written notice of such claim, suit or action.
 
-7. NO WARRANTIES
+## NO WARRANTIES
 
 THE SERVICES, MATERIALS, AND DATA ARE PROVIDED ON AN “AS IS” BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. THE COMPANY EXPRESSLY AGREES THAT USE OF THIS SITE, INCLUDING ALL CONTENT OR DATA DISTRIBUTED BY, DOWNLOADED OR ACCESSED FROM OR THROUGH THIS SERVICE, IS AT THE COMPANY’S SOLE RISK. EVERYSPORT DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT AS TO THE INFORMATION, MATERIALS, AND CONTENT ON THE SITE. EVERYSPORT DOES NOT REPRESENT OR WARRANT THAT THE EVERYSPORT DATA IS ACCURATE, COMPLETE, RELIABLE, CURRENT, OR ERROR-FREE. EVERYSPORT IS NOT RESPONSIBLE FOR TYPOGRAPHICAL ERRORS OR OMISSIONS RELATING TO PRICING, TEXT OR PHOTOGRAPHY.
 
-8. LIABILITY LIMITATION
+## LIABILITY LIMITATION
 
 IN NO EVENT SHALL EVERYSPORT, ITS OFFICERS, DIRECTORS, AGENTS, AFFILIATES, EMPLOYEES, ADVERTISERS, OR DATA PROVIDERS BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL OR PUNITIVE DAMAGES (INCLUDING BUT NOT LIMITED TO LOSS OF USE, LOSS OF PROFITS, OR LOSS OF DATA) WHETHER IN AN ACTION IN CONTRACT, TORT (INCLUDING BUT NOT LIMITED TO NEGLIGENCE), EQUITY OR OTHERWISE, ARISING OUT OF OR IN ANY WAY CONNECTED WITH THE USE OF THE EVERYSPORT API OR EVERYSPORT DATA OR SERVICES. EVERYSPORT ACCEPTS THAT SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY SO THE ABOVE LIMITATIONS MAY NOT APPLY TO THE COMPANY IN SOME INSTANCES OR AT ALL.
 
