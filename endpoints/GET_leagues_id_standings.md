@@ -13,7 +13,14 @@ Returns a list of the current standings (i.e. the Table) for the league.
 ## Return format
 An object with the following keys and values:
 * credits - a Credits object
-* standings - a list of Team objects in full format
+* standings - a list of Team Standings objects, one for each team in the league 
+
+Each Standings object contains the following data: 
+* team - a Team object in short form
+* stats - a Team Stats object
+
+
+
 
 
 
