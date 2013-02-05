@@ -1,19 +1,19 @@
 # Standings
 
->    GET leagues/:id/standings
+    GET leagues/:id/standings
 
 ## Description
-Returns a list of the current standing (aka The Table) for each team in the league. 
+Returns a list of the current standings (i.e. the Table) for the league. 
 
 ## Parameters
-* id (required) - The League ID from everysport.com
-* type - one of 'total' (default), 'home' and 'away'. 
+* id (required) - The League ID
+* type - one of 'total' (default), 'home' and 'away' 
+* callback - used for JSON-P callbacks, the argument should be the name of the callback function, such as 'esResults' 
 
 ## Return format
 An object with the following keys and values:
-* credits
-* standings - a list of Team objects
-* meta
+* credits - a Credits object
+* standings - a list of Team objects in full format
 
 
 
