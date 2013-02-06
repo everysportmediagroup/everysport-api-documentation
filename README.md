@@ -17,7 +17,7 @@ The API is REST API with JSON as the return format for all endpoints.
 
 ## Endpoints
 ### Leagues (e.g. tables and results)
-* [GET leagues/:id/standings](endpoints/GET_leagues_id_events.md)
+* [GET leagues/:id/standings](endpoints/GET_leagues_id_standings.md)
 * [GET leagues/:id/events](endpoints/GET_leagues_id_events.md)
 
 ## Apply for an API key
