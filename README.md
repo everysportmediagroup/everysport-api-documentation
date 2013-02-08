@@ -41,6 +41,8 @@ To get an API key, please send us an [email](mailto:support@everysport.com) to <
 
 We contact you as soon as we can. 
 
+## Questions at StackOverflow 
+Use the 'everysport' tag on [StackOverflow](http://stackoverflow.com/questions/tagged/everysport) to find questions and answers about the API.
 
 
 
