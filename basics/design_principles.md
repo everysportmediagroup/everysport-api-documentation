@@ -17,7 +17,7 @@ Almost every call supports the 'callback' parameter to enable so called JSON-P.
 
 
 ## Pagination
-We use 'index' and 'limit' parameters to return a slice of a longer list. 
+We use 'offset' and 'limit' parameters to return a slice of a longer list. 
 
 	/leagues/54258/events?offset=10&limit=10
 
@@ -29,9 +29,15 @@ Where search is supported, we use the "q" parameter.
 Returns all players who's name contain "Zlatan".
 
 ## Sorting
-Where sorting is supported, we use the "sort" parameter with the name of the key to sort on, and whether it's ascending or descending. 
+Where sorting is supported, we use the "sort" parameter with the name of the key to sort on.
 
-	leagues/54258/events?sort=startDate:descending
+Descending: 
+
+	leagues/54258/events?sort=startDate:desc
+
+Ascending:
+
+	leagues/54258/events?sort=startDate:sac
 
 ## Errors
 We use a few HTTP response codes to indicate when something went wrong: 
