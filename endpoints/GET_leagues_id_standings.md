@@ -85,5 +85,26 @@ A Standings object has the following data:
 	        	{...}
 	        	]
 	        }]
-	        
+	}
+
+### Elitserien
+	
+	{ 
+	  credits: {..} ,
+	  groups: [
+	  	{ 
+	  	'labels:' [],
+	  	'standings' : [
+	  		{
+	            	'team' : {…}
+	        	'stats' : [
+	        		{...}, {...}
+	        		]
+	        	},
+	        	{...}
+	        	]
+	        }]
+	}
+	
+	
         	
