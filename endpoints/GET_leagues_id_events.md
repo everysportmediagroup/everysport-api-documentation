@@ -30,7 +30,7 @@ An object with the following keys and values:
     "status":"finished", //Possible values are: upcoming, ongoing, finished (future support: postponed, cancelled)
     "visitorScore":5, //Reflects the score dependent on the event status. E.g. an upcoming event has score set to null
     "homeScore":4,
-    "visitingTeam":{...},
+    "visitorTeam":{...},
     "homeTeam":{...},
     "round": 14 //Indicates league round this event belongs to
   },
