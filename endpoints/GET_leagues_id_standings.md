@@ -33,79 +33,86 @@ A Standings object has the following data:
 ## Examples
 
 ### NHL
-	
-	{ 
-	credits: {...} ,
-  	groups: [ //some comment
-  		  { 
-  		    'labels:' [ {'type' : 'conference', 'name' : 'Western Conference' }, {'type' : division', 'name' : 'Central Division' }],
-  		    'standings' : [
-  		    	{
-  		    	  'team' : {
-  		    	    'name':'Super Great Team Name',
-  		    	    ...
-  		    	  },
-  		    	  'stats' : [
-  		    	    {'name':'gp', 'value':12},
-  		    	    {'name':'w', 'value':5},
-  		    	    {'name':'l', 'value':4},
-  		    	    ...
-  		    	  ]	
-  		    	},
-  		    	{
-  		    	  'team' : {
-  		    	    'name':'Super Great Team Name',
-  		    	    ...
-  		    	  },
-  		    	  'stats' : [
-  		    	    {'name':'gp', 'value':12},
-  		    	    {'name':'w', 'value':5},
-  		    	    {'name':'l', 'value':4},
-  		    	    ...
-  		    	  ]	
-  		    	}]
-  		  },
-  		  {...}
-  		]
-  	}
+```javascript	
+{ 
+	'credits': {...} ,
+	'groups': [
+  	  { 
+  	    'labels:' [ {'type' : 'conference', 'name' : 'Western Conference' }, {'type' : 'division', 'name' : 'Central Division' }],
+  	    'standings' : [
+  	    	{
+  	    	  'team' : {
+  	    	    'name':'Super Great Team Name',
+  	    	    ...
+  	    	  },
+  	    	  'stats' : [
+  	    	    {'name':'gp', 'value':12},
+  	    	    {'name':'w', 'value':5},
+  	    	    {'name':'l', 'value':4},
+  	    	    ...
+  	    	  ]	
+  	    	},
+  	    	{
+  	    	  'team' : {
+  	    	    'name':'Super Great Team Name',
+  	    	    ...
+  	    	  },
+  	    	  'stats' : [
+  	    	    {'name':'gp', 'value':12},
+  	    	    {'name':'w', 'value':5},
+  	    	    {'name':'l', 'value':4}
+  	    	    ...
+  	    	  ]	
+  	    	}]
+  	  },
+  	  ...
+  	]
+}
+```
             
 
 ### Bowling - Division 1
-	{ 
-	  credits: {..} ,
-	  groups: [
-	  	{ 
-	  	'labels:' [ {'type' : group'name' : 'A' }],
-	  	'standings' : [
-	  		{
-	            	'team' : {…}
-	        	'stats' : [
-	        		{...}, {...}
-	        		]
-	        	},
-	        	{...}
-	        	]
-	        }]
-	}
+```javascript
+{ 
+  'credits': {..} ,
+  'groups': [
+  	{ 
+  	'labels:' [ {'type' : group'name' : 'A' }],
+  	'standings' : [{
+		'team' : { ... }
+        	'stats' : [
+        		  {...}, 
+        		  {...},
+        		  ...
+        		]
+        	},
+        	{...}
+        	]
+        }]
+}
+```
 
 ### Elitserien
 	
-	{ 
-	  credits: {..} ,
-	  groups: [
-	  	{ 
-	  	'labels:' [],
-	  	'standings' : [
-	  		{
-	            	'team' : {…}
-	        	'stats' : [
-	        		{...}, {...}
-	        		]
-	        	},
-	        	{...}
-	        	]
-	        }]
-	}
-	
+```javascript
+{ 
+  'credits': {..} ,
+  'groups': [
+  	{ 
+  	'labels:' [],
+  	'standings' : [{
+		'team' : {...}
+        	'stats' : [
+        		{...},
+        		{...}
+        		]
+        	},
+        	{...}
+        	]
+        }]
+}
+```
+
+
 	
         	
