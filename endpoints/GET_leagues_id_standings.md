@@ -22,20 +22,21 @@ An object with the following keys and values:
 
 ### Group object
 A Group object has the following data: 
-* name - the name of the group, string
+* labels - an ordered array of objects containing type and name
 * standings - a list of Standings objects
 
 ### Standings object
 A Standings object has the following data: 
 * team - a Team Object in short format
-* stats - a Team Stats Object  
+* stats - an array of Team Stats Object
 
 ## Examples
 
 ### NHL
+	
 	{ 
 	credits: {...} ,
-  	groups: [
+  	groups: [ //some comment
   		  { 
   		    'labels:' [ {'type' : 'conference', 'name' : 'Western Conference' }, {'type' : division', 'name' : 'Central Division' }],
   		    'standings' : [
