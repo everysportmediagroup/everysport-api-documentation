@@ -11,6 +11,7 @@ Returns a list of Event objects for the league.
 * status - a comma-seperated list of one or many status, for which you want to filter the events. Can be any status value as defined by the Event object.
 * fromDate - filters out events after a specific date, Date in short format
 * toDate - filters out events before a specific date, Date in short format
+* round - a comma-seperated list of one or many rounds, for which you want to filter the events.
 * limit - Limits the number of events, positive integer
 * offset - Indicates where to start in the list. Defaults to 0, positive integer
 * sort - ascending or descending, 'startDate:asc' or 'startDate:desc'. Default is ascending.
