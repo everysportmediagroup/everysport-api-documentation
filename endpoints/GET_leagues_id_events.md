@@ -29,7 +29,7 @@ An object with the following keys and values:
   "events":[{
     "id": 1, //Unique event id
     "startDate":"2001-02-03T04:05+01:00", //Using ISO 8601 http://sv.wikipedia.org/wiki/ISO_8601
-    "status":"finished", //Possible values are: upcoming, ongoing, finished (future support: postponed, cancelled)
+    "status":"finished", //Possible values are: upcoming, postponed, ongoing, finished (future support: cancelled)
     "visitorScore":5, //Reflects the score dependent on the event status. E.g. an upcoming event has score set to null
     "homeScore":4,
     "visitorTeam":{...},
