@@ -20,6 +20,9 @@ The API is REST API with JSON as the return format for all endpoints.
 * [GET leagues/:id/standings](endpoints/GET_leagues_id_standings.md)
 * [GET leagues/:id/events](endpoints/GET_leagues_id_events.md)
 
+### Search
+* [GET search](endpoints/GET_search.md)
+
 ## Apply for an API key
 In order to use the API you need an API key, here are a few things to bear in mind before you get started:
 
