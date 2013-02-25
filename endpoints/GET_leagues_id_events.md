@@ -8,7 +8,7 @@ Returns a list of Event objects for the league.
 ## Parameters
 * id (required) - the League ID
 * apikey (required) - your APIKEY
-* status - one of 'upcoming','ongoing','finished', 'postponed', 'interrupted', 'all'(default)
+* status - a valid status value as defined by the Event object
 * fromDate - filters out events after a specific date, Date in short format
 * toDate - filters out events before a specific date, Date in short format
 * limit - Limits the number of events, positive integer

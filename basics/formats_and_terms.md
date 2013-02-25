@@ -41,6 +41,7 @@ A generic object that may represent a game/match regardless of sport.
 
 Includes the following data:
 * id - a unique event id, integer
+* status - one of 'upcoming','ongoing','finished', 'postponed', 'interrupted', 'all'(default)
 * startDate - scheduled start date of the event, Date long format
 * visitorScore - score of visiting team, integer or null
 * homeScore - score of home team, integer or null
@@ -66,4 +67,4 @@ The Stats objects may include (league-dependant) the following data:
 * gd - goals differential, integer
 * pts - points, integer
 
-Note that gp = w + d + l + ol + ow and that gd = gf - gd.
+Note that gp = w + d + l + ol + ow and that gd = gf - ga.
