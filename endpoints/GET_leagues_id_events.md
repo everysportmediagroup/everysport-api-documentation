@@ -14,7 +14,7 @@ Returns a list of Event objects for the league.
 * round - a comma-seperated list of one or many rounds, for which you want to filter the events.
 * limit - Limits the number of events, positive integer
 * offset - Indicates where to start in the list. Defaults to 0, positive integer
-* sort - ascending or descending, 'startDate:asc' or 'startDate:desc'. Default is ascending.
+* sort - the property and order by which the events is sorted. Can be 'startDate:asc', 'startDate:desc', 'round:asc' or 'round:desc'. Default is 'startDate:asc'.
 * team - a comma-separated list of one or many team IDs, for which you want to filter the events.  
 * callback - used for JSON-P callbacks, the argument should be the name of the callback function, such as 'esEvents'
 
