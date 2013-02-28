@@ -5,7 +5,7 @@
 ## Description
 Returns a list of all Sport Objects available for the given APIKEY.
 
-Sorted by name.
+List is sorted by name.
 
 ## Parameters
 * apikey (required) - your APIKEY
