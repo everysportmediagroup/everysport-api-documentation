@@ -33,6 +33,15 @@ Includes the following data:
 * id - the sport ID, integer
 * name - the full name of the sport, string
 
+## League object format
+A generic object that may represent a league regardless of sport. 
+
+Includes the following data:
+* id - a unique league  id, integer
+* name - the full name of the league, string
+* teamClass - TODO
+* sport - a Sport object
+
 ## Team object format
 Represents a team, regardless of sport.
 
