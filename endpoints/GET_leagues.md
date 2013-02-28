@@ -11,7 +11,7 @@ Use the 'sport' parameter to limit the result to leagues for specific sports.
 * apikey (required) - your APIKEY
 * sport (optional) - comma separated list of sports to retrieve leagues for, for example 'bandy,speedway'
 * limit (optional) - Limits the number of items trying to retrieve, positive integer
-* offset - Indicates where to start in the list. Defaults to 0, positive integer
+* offset (optiona) - Indicates where to start in the list. Defaults to 0, positive integer
 
 ## Example Request
 ```
@@ -35,6 +35,7 @@ GET /sports
         {
             id: 3,
             name: "...",
+            teamClass: "MEN",
             sport: {
             	id: 2,
             	name: "Fotboll"
