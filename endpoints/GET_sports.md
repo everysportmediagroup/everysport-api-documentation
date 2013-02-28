@@ -3,7 +3,7 @@
     GET sports
 
 ## Description
-Returns a list of sports available to the given APIKEY.    
+Returns a list of sports available to the given APIKEY. The sports is sorted by name. 
 
 ## Parameters
 * apikey (required) - your APIKEY
