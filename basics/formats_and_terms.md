@@ -43,8 +43,8 @@ Includes the following data:
 * id - a unique event id, integer
 * status - one of 'upcoming','ongoing','finished', 'postponed', 'interrupted', 'all'(default)
 * startDate - scheduled start date of the event, Date long format
-* visitorScore - score of visiting team, integer or null
-* homeScore - score of home team, integer or null
+* visitingTeamScore - score of visiting team, integer or null
+* homeTeamScore - score of home team, integer or null
 * visitingTeam - a Team object in small format
 * homeTeam - a Team object in small format
 * round - the round in which the game belongs, integer or null 
