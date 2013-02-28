@@ -34,7 +34,7 @@ Includes the following data:
 * name - the full name of the sport, string
 
 ## League object format
-A generic object that may represent a league regardless of sport. 
+Represents a league, regardless of sport.
 
 Includes the following data:
 * id - a unique league  id, integer
