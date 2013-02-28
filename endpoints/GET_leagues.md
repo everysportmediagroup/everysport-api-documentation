@@ -1,4 +1,4 @@
-# Search
+# Leagues
 
     GET leagues
 
@@ -13,14 +13,33 @@ Use the 'sport' parameter to limit the result to leagues for specific sports.
 * limit (optional) - Limits the number of items trying to retrieve, positive integer
 * offset - Indicates where to start in the list. Defaults to 0, positive integer
 
-## Return format
-```javascript	
-{ credit: {},
-	leagues: [
-	{'name': …,
-	 'id': …,
-	 'sport': …
-	}
+## Example Request
+```
+GET /sports
+```
 
-	]
-}  
+```javascript	
+{
+    credit: {
+        message: "Provided by Everysport.com",
+        link: "http://www.everysport.com",
+        logoUrl: "http://c.static.es-cdn.net/files/everysport2/images/icons/event/small/everysport.png"
+    },
+    metadata: {
+        limit: 50,
+        count: 7,
+        totalCount: 7,
+        offset: 0
+    },
+    leagues: [
+        {
+            id: 3,
+            name: "...",
+            sport: {
+            	id: 2,
+            	name: "Fotboll"
+            }
+        },
+        ....
+    ]
+}
