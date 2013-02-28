@@ -19,9 +19,9 @@ Returns a list of Event objects for the league.
 * callback - used for JSON-P callbacks, the argument should be the name of the callback function, such as 'esEvents'
 
 ## Example Request
-'''
+```
 GET /leagues/58878/events?limit=10&status=upcoming
-'''
+```
 
 ```javascript
 {
