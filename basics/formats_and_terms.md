@@ -26,6 +26,13 @@ Almost every return value contains a standard Credits object. It contains the ne
 * link - a URL link to relevant part of everysport.com, url string
 * logoUrl - the Everysport logo, url string
 
+## Sport object format
+Represents a sport.
+
+Includes the following data:
+* id - the sport ID, integer
+* name - the full name of the sport, string
+
 
 ## League object format
 Represents a league, regardless of sport.
