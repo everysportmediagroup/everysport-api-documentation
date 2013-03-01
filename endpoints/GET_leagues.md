@@ -16,7 +16,7 @@ Use the 'sport' parameter to limit the result to leagues for specific sports.
 
 ## Example Request
 ```
-GET /sports
+GET /leagues
 ```
 
 ```javascript	
