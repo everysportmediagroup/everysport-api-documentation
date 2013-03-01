@@ -10,6 +10,7 @@ Use the 'sport' parameter to limit the result to leagues for specific sports.
 ## Parameters
 * apikey (required) - your APIKEY
 * sport (optional) - comma separated list of sports to retrieve leagues for, for example 'bandy,speedway'
+* teamClass (optional) - comma separated list of team classes to retrieve leagues for, for example 'men,women'
 * limit (optional) - Limits the number of items trying to retrieve, positive integer
 * offset (optiona) - Indicates where to start in the list. Defaults to 0, positive integer
 
