@@ -39,7 +39,7 @@ Represents a league, regardless of sport.
 Includes the following data:
 * id - a unique league  id, integer
 * name - the full name of the league, string
-* teamClass - TODO
+* teamClass - one of 'men','women','mixed'
 * sport - a Sport object
 
 ## Team object format
@@ -57,7 +57,7 @@ A generic object that may represent a game/match regardless of sport.
 
 Includes the following data:
 * id - a unique event id, integer
-* status - one of 'upcoming','ongoing','finished', 'postponed', 'interrupted', 'all'(default)
+* status - one of 'upcoming','ongoing','finished', 'postponed', 'interrupted'
 * startDate - scheduled start date of the event, Date long format
 * visitingTeamScore - score of visiting team, integer or null
 * homeTeamScore - score of home team, integer or null
