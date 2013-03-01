@@ -1,7 +1,6 @@
 # Standings
 
-    GET leagues/:id/standings
-
+	GET leagues/:id/standings
 
 ## Description
 Returns a list of the current standings (i.e. the tables) for the league. 
@@ -13,7 +12,7 @@ The league standings, commonly visualized as a table, is essentially a list of t
 
 ## Resource URL
 
-		http://api.everysport.com/v1/leagues/id:/standings
+	http://api.everysport.com/v1/leagues/id:/standings
 
 
 ## Parameters
@@ -26,9 +25,9 @@ The league standings, commonly visualized as a table, is essentially a list of t
 
 
 ## Example Request
-```
-GET http://api.everysport.com/v1/leagues/58878/standings
-```
+
+	GET http://api.everysport.com/v1/leagues/58878/standings
+
 
 ```javascript	
 {
