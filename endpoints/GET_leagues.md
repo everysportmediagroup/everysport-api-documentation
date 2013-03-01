@@ -36,7 +36,7 @@ GET /sports
         {
             id: 3,
             name: "...",
-            teamClass: "MEN",
+            teamClass: "men",
             sport: {
             	id: 2,
             	name: "Fotboll"
