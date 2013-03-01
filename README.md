@@ -17,10 +17,7 @@ The API is REST API with JSON as the return format for all endpoints.
 * [API Terms of Use](basics/terms_of_use.md)
 
 ## Endpoints
-### Leagues
-* [GET leagues/:id/standings](endpoints/GET_leagues_id_standings.md)
-* [GET leagues/:id/events](endpoints/GET_leagues_id_events.md)
-
+All endpoints are documented in [endpoints](endpoints/)
 
 ## Apply for an API key
 In order to use the API you need an API key, here are a few things to bear in mind before you get started:
