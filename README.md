@@ -18,19 +18,8 @@ The API is REST API with JSON as the return format for all endpoints.
 
 ## Endpoints
 ### Leagues
-* [GET leagues](endpoints/GET_leagues.md)
 * [GET leagues/:id/standings](endpoints/GET_leagues_id_standings.md)
 * [GET leagues/:id/events](endpoints/GET_leagues_id_events.md)
-
-### Search
-* [GET search](endpoints/GET_search.md)
-
-### Events
-* [GET events](endpoints/GET_events.md)
-* [GET event/:id](endpoints/GET_event_id.md)
-
-### Sports
-* [GET sports](endpoints/GET_sports.md)
 
 
 ## Apply for an API key
@@ -54,7 +43,7 @@ To get an API key, please send us an [email](mailto:support@everysport.com) to <
 
 We contact you as soon as we can. 
 
-## Questions at StackOverflow 
+## Questions on StackOverflow 
 Use the 'everysport' tag on [StackOverflow](http://stackoverflow.com/questions/tagged/everysport) to find questions and answers about the API.
 
 

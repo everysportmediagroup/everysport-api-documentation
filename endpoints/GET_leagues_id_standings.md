@@ -2,12 +2,19 @@
 
     GET leagues/:id/standings
 
+
 ## Description
 Returns a list of the current standings (i.e. the tables) for the league. 
 
 A league may contain one or many groups. For example, the NHL league has several groups, such as the conferences (Eastern and Western) and divisions (Atlantic, Pacific, etc.). One team may belong to more than one group. Most leagues, however, has only one group. 
 
 The league standings, commonly visualized as a table, is essentially a list of the teams and their respective stats, sorted by one of the stats attributes, normally the total points. 
+
+
+## Resource URL
+
+		http://api.everysport.com/v1/leagues/id:/standings
+
 
 ## Parameters
 * id (required) - The League ID
@@ -19,8 +26,9 @@ The league standings, commonly visualized as a table, is essentially a list of t
 
 
 ## Example Request
-
-GET /leagues/58878/standings
+```
+GET http://api.everysport.com/v1/leagues/58878/standings
+```
 
 ```javascript	
 {
@@ -52,11 +60,11 @@ link: "http://www.everysport.com/sport/ishockey/team/chicago-blackhawks/28075"
 stats: [
 {
 name: "gp",
-value: 19
+value: 20
 },
 {
 name: "w",
-value: 16
+value: 17
 },
 {
 name: "l",
@@ -64,7 +72,7 @@ value: 0
 },
 {
 name: "gf",
-value: 61
+value: 64
 },
 {
 name: "ga",
@@ -72,11 +80,49 @@ value: 37
 },
 {
 name: "gd",
-value: 24
+value: 27
 },
 {
 name: "pts",
-value: 35
+value: 37
+}
+]
+},
+{
+team: {
+id: 28071,
+name: "Detroit Red Wings",
+shortName: "Detroit",
+link: "http://www.everysport.com/sport/ishockey/team/detroit-red-wings/28071"
+},
+stats: [
+{
+name: "gp",
+value: 21
+},
+{
+name: "w",
+value: 10
+},
+{
+name: "l",
+value: 8
+},
+{
+name: "gf",
+value: 60
+},
+{
+name: "ga",
+value: 57
+},
+{
+name: "gd",
+value: 3
+},
+{
+name: "pts",
+value: 23
 }
 ]
 },
@@ -128,7 +174,7 @@ link: "http://www.everysport.com/sport/ishockey/team/st-louis-blues/28072"
 stats: [
 {
 name: "gp",
-value: 18
+value: 19
 },
 {
 name: "w",
@@ -136,7 +182,7 @@ value: 10
 },
 {
 name: "l",
-value: 6
+value: 7
 },
 {
 name: "gf",
@@ -144,53 +190,15 @@ value: 55
 },
 {
 name: "ga",
-value: 52
+value: 55
 },
 {
 name: "gd",
-value: 3
+value: 0
 },
 {
 name: "pts",
 value: 22
-}
-]
-},
-{
-team: {
-id: 28071,
-name: "Detroit Red Wings",
-shortName: "Detroit",
-link: "http://www.everysport.com/sport/ishockey/team/detroit-red-wings/28071"
-},
-stats: [
-{
-name: "gp",
-value: 20
-},
-{
-name: "w",
-value: 9
-},
-{
-name: "l",
-value: 8
-},
-{
-name: "gf",
-value: 58
-},
-{
-name: "ga",
-value: 56
-},
-{
-name: "gd",
-value: 2
-},
-{
-name: "pts",
-value: 21
 }
 ]
 },
@@ -294,11 +302,11 @@ link: "http://www.everysport.com/sport/ishockey/team/minnesota-wild/28057"
 stats: [
 {
 name: "gp",
-value: 18
+value: 19
 },
 {
 name: "w",
-value: 9
+value: 10
 },
 {
 name: "l",
@@ -306,19 +314,19 @@ value: 7
 },
 {
 name: "gf",
-value: 39
-},
-{
-name: "ga",
 value: 43
 },
 {
+name: "ga",
+value: 46
+},
+{
 name: "gd",
-value: -4
+value: -3
 },
 {
 name: "pts",
-value: 20
+value: 22
 }
 ]
 },
@@ -332,11 +340,11 @@ link: "http://www.everysport.com/sport/ishockey/team/edmonton-oilers/28053"
 stats: [
 {
 name: "gp",
-value: 18
+value: 19
 },
 {
 name: "w",
-value: 7
+value: 8
 },
 {
 name: "l",
@@ -344,57 +352,19 @@ value: 7
 },
 {
 name: "gf",
-value: 42
+value: 47
 },
 {
 name: "ga",
-value: 49
+value: 50
 },
 {
 name: "gd",
-value: -7
+value: -3
 },
 {
 name: "pts",
-value: 18
-}
-]
-},
-{
-team: {
-id: 28058,
-name: "Calgary Flames",
-shortName: "Calgary",
-link: "http://www.everysport.com/sport/ishockey/team/calgary-flames/28058"
-},
-stats: [
-{
-name: "gp",
-value: 18
-},
-{
-name: "w",
-value: 7
-},
-{
-name: "l",
-value: 7
-},
-{
-name: "gf",
-value: 49
-},
-{
-name: "ga",
-value: 61
-},
-{
-name: "gd",
-value: -12
-},
-{
-name: "pts",
-value: 18
+value: 20
 }
 ]
 },
@@ -408,7 +378,45 @@ link: "http://www.everysport.com/sport/ishockey/team/colorado-avalanche/28054"
 stats: [
 {
 name: "gp",
-value: 18
+value: 19
+},
+{
+name: "w",
+value: 8
+},
+{
+name: "l",
+value: 8
+},
+{
+name: "gf",
+value: 49
+},
+{
+name: "ga",
+value: 58
+},
+{
+name: "gd",
+value: -9
+},
+{
+name: "pts",
+value: 19
+}
+]
+},
+{
+team: {
+id: 28058,
+name: "Calgary Flames",
+shortName: "Calgary",
+link: "http://www.everysport.com/sport/ishockey/team/calgary-flames/28058"
+},
+stats: [
+{
+name: "gp",
+value: 19
 },
 {
 name: "w",
@@ -420,19 +428,19 @@ value: 8
 },
 {
 name: "gf",
-value: 44
+value: 53
 },
 {
 name: "ga",
-value: 54
+value: 66
 },
 {
 name: "gd",
-value: -10
+value: -13
 },
 {
 name: "pts",
-value: 17
+value: 18
 }
 ]
 }
@@ -536,7 +544,7 @@ link: "http://www.everysport.com/sport/ishockey/team/dallas-stars/28059"
 stats: [
 {
 name: "gp",
-value: 20
+value: 21
 },
 {
 name: "w",
@@ -544,19 +552,57 @@ value: 10
 },
 {
 name: "l",
-value: 8
+value: 9
 },
 {
 name: "gf",
-value: 56
-},
-{
-name: "ga",
 value: 57
 },
 {
+name: "ga",
+value: 62
+},
+{
 name: "gd",
-value: -1
+value: -5
+},
+{
+name: "pts",
+value: 22
+}
+]
+},
+{
+team: {
+id: 28068,
+name: "San Jose Sharks",
+shortName: "San Jose",
+link: "http://www.everysport.com/sport/ishockey/team/san-jose-sharks/28068"
+},
+stats: [
+{
+name: "gp",
+value: 19
+},
+{
+name: "w",
+value: 9
+},
+{
+name: "l",
+value: 6
+},
+{
+name: "gf",
+value: 45
+},
+{
+name: "ga",
+value: 43
+},
+{
+name: "gd",
+value: 2
 },
 {
 name: "pts",
@@ -574,7 +620,7 @@ link: "http://www.everysport.com/sport/ishockey/team/phoenix-coyotes/28064"
 stats: [
 {
 name: "gp",
-value: 19
+value: 20
 },
 {
 name: "w",
@@ -582,57 +628,19 @@ value: 9
 },
 {
 name: "l",
-value: 7
+value: 8
 },
 {
 name: "gf",
-value: 54
+value: 57
 },
 {
 name: "ga",
-value: 51
+value: 55
 },
 {
 name: "gd",
-value: 3
-},
-{
-name: "pts",
-value: 21
-}
-]
-},
-{
-team: {
-id: 28068,
-name: "San Jose Sharks",
-shortName: "San Jose",
-link: "http://www.everysport.com/sport/ishockey/team/san-jose-sharks/28068"
-},
-stats: [
-{
-name: "gp",
-value: 18
-},
-{
-name: "w",
-value: 9
-},
-{
-name: "l",
-value: 6
-},
-{
-name: "gf",
-value: 44
-},
-{
-name: "ga",
-value: 41
-},
-{
-name: "gd",
-value: 3
+value: 2
 },
 {
 name: "pts",
@@ -664,7 +672,7 @@ link: "http://www.everysport.com/sport/ishockey/team/pittsburgh-penguins/28062"
 stats: [
 {
 name: "gp",
-value: 20
+value: 21
 },
 {
 name: "w",
@@ -672,19 +680,19 @@ value: 13
 },
 {
 name: "l",
-value: 7
+value: 8
 },
 {
 name: "gf",
-value: 69
+value: 70
 },
 {
 name: "ga",
-value: 54
+value: 58
 },
 {
 name: "gd",
-value: 15
+value: 12
 },
 {
 name: "pts",
@@ -702,7 +710,7 @@ link: "http://www.everysport.com/sport/ishockey/team/new-jersey-devils/28061"
 stats: [
 {
 name: "gp",
-value: 19
+value: 20
 },
 {
 name: "w",
@@ -710,19 +718,19 @@ value: 10
 },
 {
 name: "l",
-value: 5
+value: 6
 },
 {
 name: "gf",
-value: 48
-},
-{
-name: "ga",
 value: 49
 },
 {
+name: "ga",
+value: 52
+},
+{
 name: "gd",
-value: -1
+value: -3
 },
 {
 name: "pts",
@@ -778,11 +786,11 @@ link: "http://www.everysport.com/sport/ishockey/team/new-york-rangers/28070"
 stats: [
 {
 name: "gp",
-value: 18
+value: 19
 },
 {
 name: "w",
-value: 8
+value: 9
 },
 {
 name: "l",
@@ -790,19 +798,19 @@ value: 8
 },
 {
 name: "gf",
-value: 44
-},
-{
-name: "ga",
 value: 48
 },
 {
+name: "ga",
+value: 49
+},
+{
 name: "gd",
-value: -4
+value: -1
 },
 {
 name: "pts",
-value: 18
+value: 20
 }
 ]
 },
@@ -816,7 +824,7 @@ link: "http://www.everysport.com/sport/ishockey/team/new-york-islanders/28052"
 stats: [
 {
 name: "gp",
-value: 20
+value: 21
 },
 {
 name: "w",
@@ -828,19 +836,19 @@ value: 11
 },
 {
 name: "gf",
-value: 57
+value: 61
 },
 {
 name: "ga",
-value: 68
+value: 73
 },
 {
 name: "gd",
-value: -11
+value: -12
 },
 {
 name: "pts",
-value: 17
+value: 18
 }
 ]
 }
@@ -906,11 +914,11 @@ link: "http://www.everysport.com/sport/ishockey/team/boston-bruins/28065"
 stats: [
 {
 name: "gp",
-value: 16
+value: 17
 },
 {
 name: "w",
-value: 12
+value: 13
 },
 {
 name: "l",
@@ -918,19 +926,19 @@ value: 2
 },
 {
 name: "gf",
-value: 49
+value: 51
 },
 {
 name: "ga",
-value: 35
+value: 36
 },
 {
 name: "gd",
-value: 14
+value: 15
 },
 {
 name: "pts",
-value: 26
+value: 28
 }
 ]
 },
@@ -944,7 +952,7 @@ link: "http://www.everysport.com/sport/ishockey/team/ottawa-senators/28050"
 stats: [
 {
 name: "gp",
-value: 20
+value: 21
 },
 {
 name: "w",
@@ -956,19 +964,19 @@ value: 6
 },
 {
 name: "gf",
-value: 48
+value: 49
 },
 {
 name: "ga",
-value: 37
+value: 39
 },
 {
 name: "gd",
-value: 11
+value: 10
 },
 {
 name: "pts",
-value: 26
+value: 27
 }
 ]
 },
@@ -982,11 +990,11 @@ link: "http://www.everysport.com/sport/ishockey/team/toronto-maple-leafs/28049"
 stats: [
 {
 name: "gp",
-value: 21
+value: 22
 },
 {
 name: "w",
-value: 12
+value: 13
 },
 {
 name: "l",
@@ -994,19 +1002,19 @@ value: 9
 },
 {
 name: "gf",
-value: 59
+value: 64
 },
 {
 name: "ga",
-value: 51
+value: 55
 },
 {
 name: "gd",
-value: 8
+value: 9
 },
 {
 name: "pts",
-value: 24
+value: 26
 }
 ]
 },
@@ -1020,11 +1028,11 @@ link: "http://www.everysport.com/sport/ishockey/team/buffalo-sabres/28051"
 stats: [
 {
 name: "gp",
-value: 20
+value: 21
 },
 {
 name: "w",
-value: 7
+value: 8
 },
 {
 name: "l",
@@ -1032,19 +1040,19 @@ value: 12
 },
 {
 name: "gf",
-value: 50
+value: 54
 },
 {
 name: "ga",
-value: 64
+value: 67
 },
 {
 name: "gd",
-value: -14
+value: -13
 },
 {
 name: "pts",
-value: 15
+value: 17
 }
 ]
 }
@@ -1064,44 +1072,6 @@ name: "Southeast Division"
 standings: [
 {
 team: {
-id: 28055,
-name: "Tampa Bay Lightning",
-shortName: "Tampa Bay",
-link: "http://www.everysport.com/sport/ishockey/team/tampa-bay-lightning/28055"
-},
-stats: [
-{
-name: "gp",
-value: 19
-},
-{
-name: "w",
-value: 9
-},
-{
-name: "l",
-value: 9
-},
-{
-name: "gf",
-value: 70
-},
-{
-name: "ga",
-value: 60
-},
-{
-name: "gd",
-value: 10
-},
-{
-name: "pts",
-value: 19
-}
-]
-},
-{
-team: {
 id: 28056,
 name: "Carolina Hurricanes",
 shortName: "Carolina",
@@ -1110,11 +1080,11 @@ link: "http://www.everysport.com/sport/ishockey/team/carolina-hurricanes/28056"
 stats: [
 {
 name: "gp",
-value: 18
+value: 19
 },
 {
 name: "w",
-value: 9
+value: 10
 },
 {
 name: "l",
@@ -1122,19 +1092,19 @@ value: 8
 },
 {
 name: "gf",
-value: 50
-},
-{
-name: "ga",
 value: 54
 },
 {
+name: "ga",
+value: 55
+},
+{
 name: "gd",
-value: -4
+value: -1
 },
 {
 name: "pts",
-value: 19
+value: 21
 }
 ]
 },
@@ -1148,11 +1118,11 @@ link: "http://www.everysport.com/sport/ishockey/team/winnipeg-jets/109005"
 stats: [
 {
 name: "gp",
-value: 19
+value: 20
 },
 {
 name: "w",
-value: 9
+value: 10
 },
 {
 name: "l",
@@ -1160,15 +1130,53 @@ value: 9
 },
 {
 name: "gf",
-value: 52
+value: 55
 },
 {
 name: "ga",
-value: 60
+value: 61
 },
 {
 name: "gd",
-value: -8
+value: -6
+},
+{
+name: "pts",
+value: 21
+}
+]
+},
+{
+team: {
+id: 28055,
+name: "Tampa Bay Lightning",
+shortName: "Tampa Bay",
+link: "http://www.everysport.com/sport/ishockey/team/tampa-bay-lightning/28055"
+},
+stats: [
+{
+name: "gp",
+value: 20
+},
+{
+name: "w",
+value: 9
+},
+{
+name: "l",
+value: 10
+},
+{
+name: "gf",
+value: 71
+},
+{
+name: "ga",
+value: 64
+},
+{
+name: "gd",
+value: 7
 },
 {
 name: "pts",
@@ -1186,7 +1194,7 @@ link: "http://www.everysport.com/sport/ishockey/team/florida-panthers/28047"
 stats: [
 {
 name: "gp",
-value: 19
+value: 20
 },
 {
 name: "w",
@@ -1198,19 +1206,19 @@ value: 9
 },
 {
 name: "gf",
-value: 48
+value: 51
 },
 {
 name: "ga",
-value: 69
+value: 73
 },
 {
 name: "gd",
-value: -21
+value: -22
 },
 {
 name: "pts",
-value: 16
+value: 17
 }
 ]
 },
