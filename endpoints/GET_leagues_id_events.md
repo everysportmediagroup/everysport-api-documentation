@@ -13,14 +13,14 @@ Returns a list of Event objects for the league.
 ## Parameters
 * id (required) - the League ID
 * apikey (required) - your APIKEY
-* status - a comma-seperated list of one or many status, for which you want to filter the events. Can be any status value as defined by the Event object.
+* status - a comma-seperated list of one or many status, for which to retrieve events. Can be any status value as defined by the Event object.
 * fromDate - filters out events after a specific date, Date in short format
 * toDate - filters out events before a specific date, Date in short format
-* round - a comma-seperated list of one or many rounds, for which you want to filter the events.
+* round - a comma-seperated list of one or many rounds, for which to retrieve events.
 * limit - Limits the number of events, positive integer
 * offset - Indicates where to start in the list. Defaults to 0, positive integer
 * sort - the property and order by which the events is sorted. Can be 'startDate:asc', 'startDate:desc', 'round:asc' or 'round:desc'. Default is 'startDate:asc'.
-* team - a comma-separated list of one or many team IDs, for which you want to filter the events.  
+* team - a comma-separated list of one or many team IDs, for which to retrieve events.  
 * callback - used for JSON-P callbacks, the argument should be the name of the callback function, such as 'esEvents'
 
 
