@@ -26,7 +26,7 @@ Returns a list of Event objects for the league.
 
 ## Example Request
 ```
-GET http://api.everysport.com/v1/leagues/58878/events?limit=10&status=upcoming
+GET http://api.everysport.com/v1/leagues/58878/events?limit=3&status=upcoming
 ```
 
 ```javascript
@@ -38,201 +38,89 @@ GET http://api.everysport.com/v1/leagues/58878/events?limit=10&status=upcoming
     }, 
     "events": [
         {
-            "finishedTimeStatus": "ORDINARY_TIME", 
-            "homeTeam": {
-                "id": 28069, 
-                "link": "http://www.everysport.com/sport/ishockey/team/philadelphia/28069", 
-                "shortName": "Philadelphia"
-            }, 
-            "homeTeamScore": 1, 
-            "id": 2135253, 
-            "round": 1, 
-            "startDate": "2013-01-19T01:00+01", 
-            "status": "FINISHED", 
-            "visitingTeam": {
-                "id": 28062, 
-                "link": "http://www.everysport.com/sport/ishockey/team/pittsburgh/28062", 
-                "shortName": "Pittsburgh"
-            }, 
-            "visitingTeamScore": 3
-        }, 
-        {
-            "finishedTimeStatus": "ORDINARY_TIME", 
-            "homeTeam": {
-                "id": 28066, 
-                "link": "http://www.everysport.com/sport/ishockey/team/montreal/28066", 
-                "shortName": "Montreal"
-            }, 
-            "homeTeamScore": 1, 
-            "id": 2135257, 
-            "round": 1, 
-            "startDate": "2013-01-19T01:00+01", 
-            "status": "FINISHED", 
-            "visitingTeam": {
-                "id": 28049, 
-                "link": "http://www.everysport.com/sport/ishockey/team/toronto/28049", 
-                "shortName": "Toronto"
-            }, 
-            "visitingTeamScore": 2
-        }, 
-        {
-            "finishedTimeStatus": "ORDINARY_TIME", 
-            "homeTeam": {
-                "id": 28052, 
-                "link": "http://www.everysport.com/sport/ishockey/team/ny-islanders/28052", 
-                "shortName": "NY Islanders"
-            }, 
-            "homeTeamScore": 1, 
-            "id": 2135258, 
-            "round": 1, 
-            "startDate": "2013-01-19T01:00+01", 
-            "status": "FINISHED", 
-            "visitingTeam": {
-                "id": 28061, 
-                "link": "http://www.everysport.com/sport/ishockey/team/new-jersey/28061", 
-                "shortName": "New Jersey"
-            }, 
-            "visitingTeamScore": 2
-        }, 
-        {
-            "finishedTimeStatus": "ORDINARY_TIME", 
             "homeTeam": {
                 "id": 28065, 
-                "link": "http://www.everysport.com/sport/ishockey/team/boston/28065", 
+                "link": "http://www.everysport.com/sport/ishockey/team/boston-bruins/28065", 
+                "name": "Boston Bruins", 
                 "shortName": "Boston"
             }, 
-            "homeTeamScore": 3, 
-            "id": 2135256, 
-            "round": 1, 
-            "startDate": "2013-01-19T01:30+01", 
-            "status": "FINISHED", 
-            "visitingTeam": {
-                "id": 28070, 
-                "link": "http://www.everysport.com/sport/ishockey/team/ny-rangers/28070", 
-                "shortName": "NY Rangers"
+            "id": 2136643, 
+            "league": {
+                "id": 58878, 
+                "name": "NHL", 
+                "sport": {
+                    "id": 2, 
+                    "name": "Ishockey"
+                }
             }, 
-            "visitingTeamScore": 1
+            "round": 35, 
+            "startDate": "2013-04-03T01:00+0200", 
+            "status": "UPCOMING", 
+            "visitingTeam": {
+                "id": 28050, 
+                "link": "http://www.everysport.com/sport/ishockey/team/ottawa-senators/28050", 
+                "name": "Ottawa Senators", 
+                "shortName": "Ottawa"
+            }
         }, 
         {
-            "finishedTimeStatus": "ORDINARY_TIME", 
             "homeTeam": {
-                "id": 28055, 
-                "link": "http://www.everysport.com/sport/ishockey/team/tampa-bay/28055", 
-                "shortName": "Tampa Bay"
+                "id": 28052, 
+                "link": "http://www.everysport.com/sport/ishockey/team/new-york-islanders/28052", 
+                "name": "New York Islanders", 
+                "shortName": "NY Islanders"
             }, 
-            "homeTeamScore": 6, 
-            "id": 2135259, 
-            "round": 1, 
-            "startDate": "2013-01-19T01:30+01", 
-            "status": "FINISHED", 
+            "id": 2136644, 
+            "league": {
+                "id": 58878, 
+                "name": "NHL", 
+                "sport": {
+                    "id": 2, 
+                    "name": "Ishockey"
+                }
+            }, 
+            "round": 35, 
+            "startDate": "2013-04-03T01:00+0200", 
+            "status": "UPCOMING", 
             "visitingTeam": {
-                "id": 28073, 
-                "link": "http://www.everysport.com/sport/ishockey/team/washington/28073", 
-                "shortName": "Washington"
-            }, 
-            "visitingTeamScore": 3
+                "id": 109005, 
+                "link": "http://www.everysport.com/sport/ishockey/team/winnipeg-jets/109005", 
+                "name": "Winnipeg Jets", 
+                "shortName": "Winnipeg"
+            }
         }, 
         {
-            "finishedTimeStatus": "ORDINARY_TIME", 
             "homeTeam": {
-                "id": 28047, 
-                "link": "http://www.everysport.com/sport/ishockey/team/florida/28047", 
-                "shortName": "Florida"
-            }, 
-            "homeTeamScore": 5, 
-            "id": 2135260, 
-            "round": 1, 
-            "startDate": "2013-01-19T01:30+01", 
-            "status": "FINISHED", 
-            "visitingTeam": {
                 "id": 28056, 
-                "link": "http://www.everysport.com/sport/ishockey/team/carolina/28056", 
+                "link": "http://www.everysport.com/sport/ishockey/team/carolina-hurricanes/28056", 
+                "name": "Carolina Hurricanes", 
                 "shortName": "Carolina"
             }, 
-            "visitingTeamScore": 1
-        }, 
-        {
-            "finishedTimeStatus": "ORDINARY_TIME", 
-            "homeTeam": {
-                "id": 28057, 
-                "link": "http://www.everysport.com/sport/ishockey/team/minnesota/28057", 
-                "shortName": "Minnesota"
+            "id": 2136645, 
+            "league": {
+                "id": 58878, 
+                "name": "NHL", 
+                "sport": {
+                    "id": 2, 
+                    "name": "Ishockey"
+                }
             }, 
-            "homeTeamScore": 4, 
-            "id": 2135264, 
-            "round": 1, 
-            "startDate": "2013-01-19T02:00+01", 
-            "status": "FINISHED", 
+            "round": 35, 
+            "startDate": "2013-04-03T01:00+0200", 
+            "status": "UPCOMING", 
             "visitingTeam": {
-                "id": 28054, 
-                "link": "http://www.everysport.com/sport/ishockey/team/colorado/28054", 
-                "shortName": "Colorado"
-            }, 
-            "visitingTeamScore": 2
-        }, 
-        {
-            "finishedTimeStatus": "ORDINARY_TIME", 
-            "homeTeam": {
-                "id": 28059, 
-                "link": "http://www.everysport.com/sport/ishockey/team/dallas/28059", 
-                "shortName": "Dallas"
-            }, 
-            "homeTeamScore": 4, 
-            "id": 2135263, 
-            "round": 1, 
-            "startDate": "2013-01-19T02:30+01", 
-            "status": "FINISHED", 
-            "visitingTeam": {
-                "id": 28064, 
-                "link": "http://www.everysport.com/sport/ishockey/team/phoenix/28064", 
-                "shortName": "Phoenix"
-            }, 
-            "visitingTeamScore": 3
-        }, 
-        {
-            "finishedTimeStatus": "PENALTY_SHOOTOUT", 
-            "homeTeam": {
-                "id": 28067, 
-                "link": "http://www.everysport.com/sport/ishockey/team/nashville/28067", 
-                "shortName": "Nashville"
-            }, 
-            "homeTeamScore": 2, 
-            "id": 2135262, 
-            "round": 1, 
-            "startDate": "2013-01-19T03:00+01", 
-            "status": "FINISHED", 
-            "visitingTeam": {
-                "id": 28074, 
-                "link": "http://www.everysport.com/sport/ishockey/team/columbus/28074", 
-                "shortName": "Columbus"
-            }, 
-            "visitingTeamScore": 3
-        }, 
-        {
-            "finishedTimeStatus": "ORDINARY_TIME", 
-            "homeTeam": {
-                "id": 28058, 
-                "link": "http://www.everysport.com/sport/ishockey/team/calgary/28058", 
-                "shortName": "Calgary"
-            }, 
-            "homeTeamScore": 1, 
-            "id": 2135267, 
-            "round": 1, 
-            "startDate": "2013-01-19T03:30+01", 
-            "status": "FINISHED", 
-            "visitingTeam": {
-                "id": 28068, 
-                "link": "http://www.everysport.com/sport/ishockey/team/san-jose/28068", 
-                "shortName": "San Jose"
-            }, 
-            "visitingTeamScore": 4
+                "id": 28073, 
+                "link": "http://www.everysport.com/sport/ishockey/team/washington-capitals/28073", 
+                "name": "Washington Capitals", 
+                "shortName": "Washington"
+            }
         }
     ], 
     "metadata": {
-        "count": 10, 
-        "limit": 10, 
+        "count": 3, 
+        "limit": 3, 
         "offset": 0, 
-        "totalCount": 713
+        "totalCount": 189
     }
 }
 ```
