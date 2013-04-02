@@ -23,78 +23,97 @@ Returns a list of Event objects.
 ## Return format
 
 ```javascript	
-{ "credit" : { "link" : "http://www.everysport.com",
-      "logoUrl" : "http://c.static.es-cdn.net/files/everysport2/images/  icons/event/small/everysport.png",
-      "message" : "Provided by Everysport.com"
-    },
-  "events" : [ { "finishedTimeStatus" : "ORDINARY_TIME",
-        "homeTeam" : { "id" : 27681,
-            "link" : "http://www.everysport.com/sport/fotboll/team/arsenal/27681",
-            "name" : "Arsenal",
-            "shortName" : "Arsenal"
-          },
-        "homeTeamScore" : 0,
-        "id" : 2044519,
-        "league" : { "id" : 55193,
-            "name" : "Premier League"
-          },
-        "round" : 1,
-        "startDate" : "2012-08-18T15:00+0200",
-        "status" : "FINISHED",
-        "visitingTeam" : { "id" : 27669,
-            "link" : "http://www.everysport.com/sport/fotboll/team/sunderland/27669",
-            "name" : "Sunderland",
-            "shortName" : "Sunderland"
-          },
-        "visitingTeamScore" : 0
-      },
-      { "finishedTimeStatus" : "ORDINARY_TIME",
-        "homeTeam" : { "id" : 27675,
-            "link" : "http://www.everysport.com/sport/fotboll/team/fulham/27675",
-            "name" : "Fulham",
-            "shortName" : "Fulham"
-          },
-        "homeTeamScore" : 5,
-        "id" : 2044520,
-        "league" : { "id" : 55193,
-            "name" : "Premier League"
-          },
-        "round" : 1,
-        "startDate" : "2012-08-18T15:00+0200",
-        "status" : "FINISHED",
-        "visitingTeam" : { "id" : 27703,
-            "link" : "http://www.everysport.com/sport/fotboll/team/norwich/27703",
-            "name" : "Norwich",
-            "shortName" : "Norwich"
-          },
-        "visitingTeamScore" : 0
-      },
-      { "finishedTimeStatus" : "ORDINARY_TIME",
-        "homeTeam" : { "id" : 27694,
-            "link" : "http://www.everysport.com/sport/fotboll/team/queens-pr/27694",
-            "name" : "Queens PR",
-            "shortName" : "QPR"
-          },
-        "homeTeamScore" : 0,
-        "id" : 2044521,
-        "league" : { "id" : 55193,
-            "name" : "Premier League"
-          },
-        "round" : 1,
-        "startDate" : "2012-08-18T15:00+0200",
-        "status" : "FINISHED",
-        "visitingTeam" : { "id" : 27711,
-            "link" : "http://www.everysport.com/sport/fotboll/team/swansea/27711",
-            "name" : "Swansea",
-            "shortName" : "Swansea"
-          },
-        "visitingTeamScore" : 5
-      }
-    ],
-  "metadata" : { "count" : 3,
-      "limit" : 3,
-      "offset" : 0,
-      "totalCount" : 914
+{
+    "credit": {
+        "link": "http://www.everysport.com", 
+        "logoUrl": "http://c.static.es-cdn.net/files/everysport2/images/icons/event/small/everysport.png", 
+        "message": "Provided by Everysport.com"
+    }, 
+    "events": [
+        {
+            "homeTeam": {
+                "id": 28065, 
+                "link": "http://www.everysport.com/sport/ishockey/team/boston-bruins/28065", 
+                "name": "Boston Bruins", 
+                "shortName": "Boston"
+            }, 
+            "id": 2136643, 
+            "league": {
+                "id": 58878, 
+                "name": "NHL", 
+                "sport": {
+                    "id": 2, 
+                    "name": "Ishockey"
+                }
+            }, 
+            "round": 35, 
+            "startDate": "2013-04-03T01:00+0200", 
+            "status": "UPCOMING", 
+            "visitingTeam": {
+                "id": 28050, 
+                "link": "http://www.everysport.com/sport/ishockey/team/ottawa-senators/28050", 
+                "name": "Ottawa Senators", 
+                "shortName": "Ottawa"
+            }
+        }, 
+        {
+            "homeTeam": {
+                "id": 28052, 
+                "link": "http://www.everysport.com/sport/ishockey/team/new-york-islanders/28052", 
+                "name": "New York Islanders", 
+                "shortName": "NY Islanders"
+            }, 
+            "id": 2136644, 
+            "league": {
+                "id": 58878, 
+                "name": "NHL", 
+                "sport": {
+                    "id": 2, 
+                    "name": "Ishockey"
+                }
+            }, 
+            "round": 35, 
+            "startDate": "2013-04-03T01:00+0200", 
+            "status": "UPCOMING", 
+            "visitingTeam": {
+                "id": 109005, 
+                "link": "http://www.everysport.com/sport/ishockey/team/winnipeg-jets/109005", 
+                "name": "Winnipeg Jets", 
+                "shortName": "Winnipeg"
+            }
+        }, 
+        {
+            "homeTeam": {
+                "id": 28056, 
+                "link": "http://www.everysport.com/sport/ishockey/team/carolina-hurricanes/28056", 
+                "name": "Carolina Hurricanes", 
+                "shortName": "Carolina"
+            }, 
+            "id": 2136645, 
+            "league": {
+                "id": 58878, 
+                "name": "NHL", 
+                "sport": {
+                    "id": 2, 
+                    "name": "Ishockey"
+                }
+            }, 
+            "round": 35, 
+            "startDate": "2013-04-03T01:00+0200", 
+            "status": "UPCOMING", 
+            "visitingTeam": {
+                "id": 28073, 
+                "link": "http://www.everysport.com/sport/ishockey/team/washington-capitals/28073", 
+                "name": "Washington Capitals", 
+                "shortName": "Washington"
+            }
+        }
+    ], 
+    "metadata": {
+        "count": 3, 
+        "limit": 3, 
+        "offset": 0, 
+        "totalCount": 189
     }
 }
 ```
