@@ -31,1233 +31,720 @@ The league standings, commonly visualized as a table, is essentially a list of t
 
 ```javascript	
 {
-    "credit": {
-        "link": "http://www.everysport.com", 
-        "logoUrl": "http://c.static.es-cdn.net/files/everysport2/images/icons/event/small/everysport.png", 
-        "message": "Provided by Everysport.com"
-    }, 
-    "groups": [
+    credit: {
+        message: "Provided by Everysport.com",
+            link: "http://www.everysport.com",
+            logoUrl: "http://c.static.es-cdn.net/files/everysport2/images/icons/event/small/everysport.png"
+    },
+    metadata: { },
+    groups: [
         {
-            "labels": [
+            labels: [ ],
+            standings: [
                 {
-                    "name": "Western Conference", 
-                    "type": "conference"
-                }, 
-                {
-                    "name": "Central Division", 
-                    "type": "division"
-                }
-            ], 
-            "standings": [
-                {
-                    "stats": [
+                    team: {
+                        id: 9370,
+                        name: "IFK Göteborg",
+                        shortName: "Göteborg",
+                        link: "http://www.everysport.com/sport/fotboll/team/ifk-goeteborg/9370"
+                    },
+                    positionStatuses: [ ],
+                    stats: [
                         {
-                            "name": "gp", 
-                            "value": 20
-                        }, 
+                            name: "gp",
+                            value: 5
+                        },
                         {
-                            "name": "w", 
-                            "value": 17
-                        }, 
+                            name: "w",
+                            value: 4
+                        },
                         {
-                            "name": "l", 
-                            "value": 0
-                        }, 
+                            name: "d",
+                            value: 1
+                        },
                         {
-                            "name": "gf", 
-                            "value": 64
-                        }, 
+                            name: "l",
+                            value: 0
+                        },
                         {
-                            "name": "ga", 
-                            "value": 37
-                        }, 
+                            name: "gf",
+                            value: 9
+                        },
                         {
-                            "name": "gd", 
-                            "value": 27
-                        }, 
+                            name: "ga",
+                            value: 1
+                        },
                         {
-                            "name": "pts", 
-                            "value": 37
+                            name: "gd",
+                            value: 8
+                        },
+                        {
+                            name: "pts",
+                            value: 13
                         }
-                    ], 
-                    "team": {
-                        "id": 28075, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/chicago-blackhawks/28075", 
-                        "name": "Chicago Blackhawks", 
-                        "shortName": "Chicago"
-                    }
-                }, 
+                    ]
+                },
                 {
-                    "stats": [
+                    team: {
+                        id: 9375,
+                        name: "Malmö FF",
+                        shortName: "Malmö FF",
+                        link: "http://www.everysport.com/sport/fotboll/team/malmoe-ff/9375"
+                    },
+                    positionStatuses: [ ],
+                    stats: [
                         {
-                            "name": "gp", 
-                            "value": 21
-                        }, 
+                            name: "gp",
+                            value: 5
+                        },
                         {
-                            "name": "w", 
-                            "value": 10
-                        }, 
+                            name: "w",
+                            value: 4
+                        },
                         {
-                            "name": "l", 
-                            "value": 8
-                        }, 
+                            name: "d",
+                            value: 1
+                        },
                         {
-                            "name": "gf", 
-                            "value": 60
-                        }, 
+                            name: "l",
+                            value: 0
+                        },
                         {
-                            "name": "ga", 
-                            "value": 57
-                        }, 
+                            name: "gf",
+                            value: 8
+                        },
                         {
-                            "name": "gd", 
-                            "value": 3
-                        }, 
+                            name: "ga",
+                            value: 2
+                        },
                         {
-                            "name": "pts", 
-                            "value": 23
+                            name: "gd",
+                            value: 6
+                        },
+                        {
+                            name: "pts",
+                            value: 13
                         }
-                    ], 
-                    "team": {
-                        "id": 28071, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/detroit-red-wings/28071", 
-                        "name": "Detroit Red Wings", 
-                        "shortName": "Detroit"
-                    }
-                }, 
+                    ]
+                },
                 {
-                    "stats": [
+                    team: {
+                        id: 9373,
+                        name: "Helsingborgs IF",
+                        shortName: "Helsingborg",
+                        link: "http://www.everysport.com/sport/fotboll/team/helsingborgs-if/9373"
+                    },
+                    positionStatuses: [ ],
+                    stats: [
                         {
-                            "name": "gp", 
-                            "value": 21
-                        }, 
+                            name: "gp",
+                            value: 5
+                        },
                         {
-                            "name": "w", 
-                            "value": 9
-                        }, 
+                            name: "w",
+                            value: 3
+                        },
                         {
-                            "name": "l", 
-                            "value": 7
-                        }, 
+                            name: "d",
+                            value: 1
+                        },
                         {
-                            "name": "gf", 
-                            "value": 45
-                        }, 
+                            name: "l",
+                            value: 1
+                        },
                         {
-                            "name": "ga", 
-                            "value": 52
-                        }, 
+                            name: "gf",
+                            value: 11
+                        },
                         {
-                            "name": "gd", 
-                            "value": -7
-                        }, 
+                            name: "ga",
+                            value: 4
+                        },
                         {
-                            "name": "pts", 
-                            "value": 23
+                            name: "gd",
+                            value: 7
+                        },
+                        {
+                            name: "pts",
+                            value: 10
                         }
-                    ], 
-                    "team": {
-                        "id": 28067, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/nashville-predators/28067", 
-                        "name": "Nashville Predators", 
-                        "shortName": "Nashville"
-                    }
-                }, 
+                    ]
+                },
                 {
-                    "stats": [
+                    team: {
+                        id: 9374,
+                        name: "Kalmar FF",
+                        shortName: "Kalmar FF",
+                        link: "http://www.everysport.com/sport/fotboll/team/kalmar-ff/9374"
+                    },
+                    positionStatuses: [ ],
+                    stats: [
                         {
-                            "name": "gp", 
-                            "value": 19
-                        }, 
+                            name: "gp",
+                            value: 5
+                        },
                         {
-                            "name": "w", 
-                            "value": 10
-                        }, 
+                            name: "w",
+                            value: 2
+                        },
                         {
-                            "name": "l", 
-                            "value": 7
-                        }, 
+                            name: "d",
+                            value: 2
+                        },
                         {
-                            "name": "gf", 
-                            "value": 55
-                        }, 
+                            name: "l",
+                            value: 1
+                        },
                         {
-                            "name": "ga", 
-                            "value": 55
-                        }, 
+                            name: "gf",
+                            value: 6
+                        },
                         {
-                            "name": "gd", 
-                            "value": 0
-                        }, 
+                            name: "ga",
+                            value: 3
+                        },
                         {
-                            "name": "pts", 
-                            "value": 22
+                            name: "gd",
+                            value: 3
+                        },
+                        {
+                            name: "pts",
+                            value: 8
                         }
-                    ], 
-                    "team": {
-                        "id": 28072, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/st-louis-blues/28072", 
-                        "name": "St Louis Blues", 
-                        "shortName": "St Louis"
-                    }
-                }, 
+                    ]
+                },
                 {
-                    "stats": [
+                    team: {
+                        id: 9394,
+                        name: "Östers IF",
+                        shortName: "Öster",
+                        link: "http://www.everysport.com/sport/fotboll/team/oesters-if/9394"
+                    },
+                    positionStatuses: [ ],
+                    stats: [
                         {
-                            "name": "gp", 
-                            "value": 20
-                        }, 
+                            name: "gp",
+                            value: 5
+                        },
                         {
-                            "name": "w", 
-                            "value": 5
-                        }, 
+                            name: "w",
+                            value: 2
+                        },
                         {
-                            "name": "l", 
-                            "value": 12
-                        }, 
+                            name: "d",
+                            value: 2
+                        },
                         {
-                            "name": "gf", 
-                            "value": 44
-                        }, 
+                            name: "l",
+                            value: 1
+                        },
                         {
-                            "name": "ga", 
-                            "value": 61
-                        }, 
+                            name: "gf",
+                            value: 6
+                        },
                         {
-                            "name": "gd", 
-                            "value": -17
-                        }, 
+                            name: "ga",
+                            value: 5
+                        },
                         {
-                            "name": "pts", 
-                            "value": 13
+                            name: "gd",
+                            value: 1
+                        },
+                        {
+                            name: "pts",
+                            value: 8
                         }
-                    ], 
-                    "team": {
-                        "id": 28074, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/columbus-blue-jackets/28074", 
-                        "name": "Columbus Blue Jackets", 
-                        "shortName": "Columbus"
-                    }
-                }
-            ]
-        }, 
-        {
-            "labels": [
+                    ]
+                },
                 {
-                    "name": "Western Conference", 
-                    "type": "conference"
-                }, 
-                {
-                    "name": "Northwest Division", 
-                    "type": "division"
-                }
-            ], 
-            "standings": [
-                {
-                    "stats": [
+                    team: {
+                        id: 9369,
+                        name: "IF Elfsborg",
+                        shortName: "Elfsborg",
+                        link: "http://www.everysport.com/sport/fotboll/team/if-elfsborg/9369"
+                    },
+                    positionStatuses: [ ],
+                    stats: [
                         {
-                            "name": "gp", 
-                            "value": 19
-                        }, 
+                            name: "gp",
+                            value: 5
+                        },
                         {
-                            "name": "w", 
-                            "value": 10
-                        }, 
+                            name: "w",
+                            value: 1
+                        },
                         {
-                            "name": "l", 
-                            "value": 5
-                        }, 
+                            name: "d",
+                            value: 4
+                        },
                         {
-                            "name": "gf", 
-                            "value": 54
-                        }, 
+                            name: "l",
+                            value: 0
+                        },
                         {
-                            "name": "ga", 
-                            "value": 52
-                        }, 
+                            name: "gf",
+                            value: 6
+                        },
                         {
-                            "name": "gd", 
-                            "value": 2
-                        }, 
+                            name: "ga",
+                            value: 4
+                        },
                         {
-                            "name": "pts", 
-                            "value": 24
+                            name: "gd",
+                            value: 2
+                        },
+                        {
+                            name: "pts",
+                            value: 7
                         }
-                    ], 
-                    "team": {
-                        "id": 28063, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/vancouver-canucks/28063", 
-                        "name": "Vancouver Canucks", 
-                        "shortName": "Vancouver"
-                    }
-                }, 
+                    ]
+                },
                 {
-                    "stats": [
+                    team: {
+                        id: 19740,
+                        name: "BK Häcken",
+                        shortName: "Häcken",
+                        link: "http://www.everysport.com/sport/fotboll/team/bk-haecken/19740"
+                    },
+                    positionStatuses: [ ],
+                    stats: [
                         {
-                            "name": "gp", 
-                            "value": 19
-                        }, 
+                            name: "gp",
+                            value: 5
+                        },
                         {
-                            "name": "w", 
-                            "value": 10
-                        }, 
+                            name: "w",
+                            value: 2
+                        },
                         {
-                            "name": "l", 
-                            "value": 7
-                        }, 
+                            name: "d",
+                            value: 1
+                        },
                         {
-                            "name": "gf", 
-                            "value": 43
-                        }, 
+                            name: "l",
+                            value: 2
+                        },
                         {
-                            "name": "ga", 
-                            "value": 46
-                        }, 
+                            name: "gf",
+                            value: 6
+                        },
                         {
-                            "name": "gd", 
-                            "value": -3
-                        }, 
+                            name: "ga",
+                            value: 5
+                        },
                         {
-                            "name": "pts", 
-                            "value": 22
+                            name: "gd",
+                            value: 1
+                        },
+                        {
+                            name: "pts",
+                            value: 7
                         }
-                    ], 
-                    "team": {
-                        "id": 28057, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/minnesota-wild/28057", 
-                        "name": "Minnesota Wild", 
-                        "shortName": "Minnesota"
-                    }
-                }, 
+                    ]
+                },
                 {
-                    "stats": [
+                    team: {
+                        id: 9400,
+                        name: "Gefle IF",
+                        shortName: "Gefle",
+                        link: "http://www.everysport.com/sport/fotboll/team/gefle-if/9400"
+                    },
+                    positionStatuses: [ ],
+                    stats: [
                         {
-                            "name": "gp", 
-                            "value": 19
-                        }, 
+                            name: "gp",
+                            value: 5
+                        },
                         {
-                            "name": "w", 
-                            "value": 8
-                        }, 
+                            name: "w",
+                            value: 2
+                        },
                         {
-                            "name": "l", 
-                            "value": 7
-                        }, 
+                            name: "d",
+                            value: 0
+                        },
                         {
-                            "name": "gf", 
-                            "value": 47
-                        }, 
+                            name: "l",
+                            value: 3
+                        },
                         {
-                            "name": "ga", 
-                            "value": 50
-                        }, 
+                            name: "gf",
+                            value: 5
+                        },
                         {
-                            "name": "gd", 
-                            "value": -3
-                        }, 
+                            name: "ga",
+                            value: 5
+                        },
                         {
-                            "name": "pts", 
-                            "value": 20
+                            name: "gd",
+                            value: 0
+                        },
+                        {
+                            name: "pts",
+                            value: 6
                         }
-                    ], 
-                    "team": {
-                        "id": 28053, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/edmonton-oilers/28053", 
-                        "name": "Edmonton Oilers", 
-                        "shortName": "Edmonton"
-                    }
-                }, 
+                    ]
+                },
                 {
-                    "stats": [
+                    team: {
+                        id: 9389,
+                        name: "Mjällby AIF",
+                        shortName: "Mjällby",
+                        link: "http://www.everysport.com/sport/fotboll/team/mjaellby-aif/9389"
+                    },
+                    positionStatuses: [ ],
+                    stats: [
                         {
-                            "name": "gp", 
-                            "value": 19
-                        }, 
+                            name: "gp",
+                            value: 4
+                        },
                         {
-                            "name": "w", 
-                            "value": 8
-                        }, 
+                            name: "w",
+                            value: 2
+                        },
                         {
-                            "name": "l", 
-                            "value": 8
-                        }, 
+                            name: "d",
+                            value: 0
+                        },
                         {
-                            "name": "gf", 
-                            "value": 49
-                        }, 
+                            name: "l",
+                            value: 2
+                        },
                         {
-                            "name": "ga", 
-                            "value": 58
-                        }, 
+                            name: "gf",
+                            value: 4
+                        },
                         {
-                            "name": "gd", 
-                            "value": -9
-                        }, 
+                            name: "ga",
+                            value: 5
+                        },
                         {
-                            "name": "pts", 
-                            "value": 19
+                            name: "gd",
+                            value: -1
+                        },
+                        {
+                            name: "pts",
+                            value: 6
                         }
-                    ], 
-                    "team": {
-                        "id": 28054, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/colorado-avalanche/28054", 
-                        "name": "Colorado Avalanche", 
-                        "shortName": "Colorado"
-                    }
-                }, 
+                    ]
+                },
                 {
-                    "stats": [
+                    team: {
+                        id: 9376,
+                        name: "IFK Norrköping",
+                        shortName: "Norrköping",
+                        link: "http://www.everysport.com/sport/fotboll/team/ifk-norrkoeping/9376"
+                    },
+                    positionStatuses: [ ],
+                    stats: [
                         {
-                            "name": "gp", 
-                            "value": 19
-                        }, 
+                            name: "gp",
+                            value: 5
+                        },
                         {
-                            "name": "w", 
-                            "value": 7
-                        }, 
+                            name: "w",
+                            value: 2
+                        },
                         {
-                            "name": "l", 
-                            "value": 8
-                        }, 
+                            name: "d",
+                            value: 0
+                        },
                         {
-                            "name": "gf", 
-                            "value": 53
-                        }, 
+                            name: "l",
+                            value: 3
+                        },
                         {
-                            "name": "ga", 
-                            "value": 66
-                        }, 
+                            name: "gf",
+                            value: 6
+                        },
                         {
-                            "name": "gd", 
-                            "value": -13
-                        }, 
+                            name: "ga",
+                            value: 10
+                        },
                         {
-                            "name": "pts", 
-                            "value": 18
+                            name: "gd",
+                            value: -4
+                        },
+                        {
+                            name: "pts",
+                            value: 6
                         }
-                    ], 
-                    "team": {
-                        "id": 28058, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/calgary-flames/28058", 
-                        "name": "Calgary Flames", 
-                        "shortName": "Calgary"
-                    }
-                }
-            ]
-        }, 
-        {
-            "labels": [
+                    ]
+                },
                 {
-                    "name": "Western Conference", 
-                    "type": "conference"
-                }, 
-                {
-                    "name": "Pacific Division", 
-                    "type": "division"
-                }
-            ], 
-            "standings": [
-                {
-                    "stats": [
+                    team: {
+                        id: 9367,
+                        name: "AIK",
+                        shortName: "AIK",
+                        link: "http://www.everysport.com/sport/fotboll/team/aik/9367"
+                    },
+                    positionStatuses: [ ],
+                    stats: [
                         {
-                            "name": "gp", 
-                            "value": 18
-                        }, 
+                            name: "gp",
+                            value: 5
+                        },
                         {
-                            "name": "w", 
-                            "value": 14
-                        }, 
+                            name: "w",
+                            value: 1
+                        },
                         {
-                            "name": "l", 
-                            "value": 3
-                        }, 
+                            name: "d",
+                            value: 2
+                        },
                         {
-                            "name": "gf", 
-                            "value": 64
-                        }, 
+                            name: "l",
+                            value: 2
+                        },
                         {
-                            "name": "ga", 
-                            "value": 48
-                        }, 
+                            name: "gf",
+                            value: 4
+                        },
                         {
-                            "name": "gd", 
-                            "value": 16
-                        }, 
+                            name: "ga",
+                            value: 5
+                        },
                         {
-                            "name": "pts", 
-                            "value": 29
+                            name: "gd",
+                            value: -1
+                        },
+                        {
+                            name: "pts",
+                            value: 5
                         }
-                    ], 
-                    "team": {
-                        "id": 28076, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/anaheim-ducks/28076", 
-                        "name": "Anaheim Ducks", 
-                        "shortName": "Anaheim"
-                    }
-                }, 
+                    ]
+                },
                 {
-                    "stats": [
+                    team: {
+                        id: 19721,
+                        name: "IF Brommapojkarna",
+                        shortName: "Brommapojkarna",
+                        link: "http://www.everysport.com/sport/fotboll/team/if-brommapojkarna/19721"
+                    },
+                    positionStatuses: [ ],
+                    stats: [
                         {
-                            "name": "gp", 
-                            "value": 18
-                        }, 
+                            name: "gp",
+                            value: 5
+                        },
                         {
-                            "name": "w", 
-                            "value": 10
-                        }, 
+                            name: "w",
+                            value: 1
+                        },
                         {
-                            "name": "l", 
-                            "value": 6
-                        }, 
+                            name: "d",
+                            value: 2
+                        },
                         {
-                            "name": "gf", 
-                            "value": 47
-                        }, 
+                            name: "l",
+                            value: 2
+                        },
                         {
-                            "name": "ga", 
-                            "value": 42
-                        }, 
+                            name: "gf",
+                            value: 4
+                        },
                         {
-                            "name": "gd", 
-                            "value": 5
-                        }, 
+                            name: "ga",
+                            value: 7
+                        },
                         {
-                            "name": "pts", 
-                            "value": 22
+                            name: "gd",
+                            value: -3
+                        },
+                        {
+                            name: "pts",
+                            value: 5
                         }
-                    ], 
-                    "team": {
-                        "id": 28060, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/los-angeles-kings/28060", 
-                        "name": "Los Angeles Kings", 
-                        "shortName": "Los Angeles"
-                    }
-                }, 
+                    ]
+                },
                 {
-                    "stats": [
+                    team: {
+                        id: 9393,
+                        name: "Åtvidabergs FF",
+                        shortName: "Åtvidaberg",
+                        link: "http://www.everysport.com/sport/fotboll/team/aatvidabergs-ff/9393"
+                    },
+                    positionStatuses: [ ],
+                    lineThicknessBelow: 1,
+                    stats: [
                         {
-                            "name": "gp", 
-                            "value": 21
-                        }, 
+                            name: "gp",
+                            value: 5
+                        },
                         {
-                            "name": "w", 
-                            "value": 10
-                        }, 
+                            name: "w",
+                            value: 1
+                        },
                         {
-                            "name": "l", 
-                            "value": 9
-                        }, 
+                            name: "d",
+                            value: 1
+                        },
                         {
-                            "name": "gf", 
-                            "value": 57
-                        }, 
+                            name: "l",
+                            value: 3
+                        },
                         {
-                            "name": "ga", 
-                            "value": 62
-                        }, 
+                            name: "gf",
+                            value: 3
+                        },
                         {
-                            "name": "gd", 
-                            "value": -5
-                        }, 
+                            name: "ga",
+                            value: 6
+                        },
                         {
-                            "name": "pts", 
-                            "value": 22
+                            name: "gd",
+                            value: -3
+                        },
+                        {
+                            name: "pts",
+                            value: 4
                         }
-                    ], 
-                    "team": {
-                        "id": 28059, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/dallas-stars/28059", 
-                        "name": "Dallas Stars", 
-                        "shortName": "Dallas"
-                    }
-                }, 
+                    ]
+                },
                 {
-                    "stats": [
+                    team: {
+                        id: 23026,
+                        name: "Syrianska FC",
+                        shortName: "Syrianska",
+                        link: "http://www.everysport.com/sport/fotboll/team/syrianska-fc/23026"
+                    },
+                    positionStatuses: [
                         {
-                            "name": "gp", 
-                            "value": 19
-                        }, 
-                        {
-                            "name": "w", 
-                            "value": 9
-                        }, 
-                        {
-                            "name": "l", 
-                            "value": 6
-                        }, 
-                        {
-                            "name": "gf", 
-                            "value": 45
-                        }, 
-                        {
-                            "name": "ga", 
-                            "value": 43
-                        }, 
-                        {
-                            "name": "gd", 
-                            "value": 2
-                        }, 
-                        {
-                            "name": "pts", 
-                            "value": 22
+                            type: "negative-qualifying",
+                            name: "Negativt kval"
                         }
-                    ], 
-                    "team": {
-                        "id": 28068, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/san-jose-sharks/28068", 
-                        "name": "San Jose Sharks", 
-                        "shortName": "San Jose"
-                    }
-                }, 
-                {
-                    "stats": [
+                    ],
+                    lineThicknessBelow: 2,
+                    stats: [
                         {
-                            "name": "gp", 
-                            "value": 20
-                        }, 
+                            name: "gp",
+                            value: 5
+                        },
                         {
-                            "name": "w", 
-                            "value": 9
-                        }, 
+                            name: "w",
+                            value: 1
+                        },
                         {
-                            "name": "l", 
-                            "value": 8
-                        }, 
+                            name: "d",
+                            value: 1
+                        },
                         {
-                            "name": "gf", 
-                            "value": 57
-                        }, 
+                            name: "l",
+                            value: 3
+                        },
                         {
-                            "name": "ga", 
-                            "value": 55
-                        }, 
+                            name: "gf",
+                            value: 3
+                        },
                         {
-                            "name": "gd", 
-                            "value": 2
-                        }, 
+                            name: "ga",
+                            value: 7
+                        },
                         {
-                            "name": "pts", 
-                            "value": 21
+                            name: "gd",
+                            value: -4
+                        },
+                        {
+                            name: "pts",
+                            value: 4
                         }
-                    ], 
-                    "team": {
-                        "id": 28064, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/phoenix-coyotes/28064", 
-                        "name": "Phoenix Coyotes", 
-                        "shortName": "Phoenix"
-                    }
-                }
-            ]
-        }, 
-        {
-            "labels": [
+                    ]
+                },
                 {
-                    "name": "Eastern Conference", 
-                    "type": "conference"
-                }, 
-                {
-                    "name": "Atlantic Division", 
-                    "type": "division"
-                }
-            ], 
-            "standings": [
-                {
-                    "stats": [
+                    team: {
+                        id: 9371,
+                        name: "Halmstads BK",
+                        shortName: "Halmstad",
+                        link: "http://www.everysport.com/sport/fotboll/team/halmstads-bk/9371"
+                    },
+                    positionStatuses: [
                         {
-                            "name": "gp", 
-                            "value": 21
-                        }, 
-                        {
-                            "name": "w", 
-                            "value": 13
-                        }, 
-                        {
-                            "name": "l", 
-                            "value": 8
-                        }, 
-                        {
-                            "name": "gf", 
-                            "value": 70
-                        }, 
-                        {
-                            "name": "ga", 
-                            "value": 58
-                        }, 
-                        {
-                            "name": "gd", 
-                            "value": 12
-                        }, 
-                        {
-                            "name": "pts", 
-                            "value": 26
+                            type: "relegation",
+                            name: "Nedflyttning"
                         }
-                    ], 
-                    "team": {
-                        "id": 28062, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/pittsburgh-penguins/28062", 
-                        "name": "Pittsburgh Penguins", 
-                        "shortName": "Pittsburgh"
-                    }
-                }, 
-                {
-                    "stats": [
+                    ],
+                    stats: [
                         {
-                            "name": "gp", 
-                            "value": 20
-                        }, 
+                            name: "gp",
+                            value: 5
+                        },
                         {
-                            "name": "w", 
-                            "value": 10
-                        }, 
+                            name: "w",
+                            value: 0
+                        },
                         {
-                            "name": "l", 
-                            "value": 6
-                        }, 
+                            name: "d",
+                            value: 3
+                        },
                         {
-                            "name": "gf", 
-                            "value": 49
-                        }, 
+                            name: "l",
+                            value: 2
+                        },
                         {
-                            "name": "ga", 
-                            "value": 52
-                        }, 
+                            name: "gf",
+                            value: 3
+                        },
                         {
-                            "name": "gd", 
-                            "value": -3
-                        }, 
+                            name: "ga",
+                            value: 6
+                        },
                         {
-                            "name": "pts", 
-                            "value": 24
+                            name: "gd",
+                            value: -3
+                        },
+                        {
+                            name: "pts",
+                            value: 3
                         }
-                    ], 
-                    "team": {
-                        "id": 28061, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/new-jersey-devils/28061", 
-                        "name": "New Jersey Devils", 
-                        "shortName": "New Jersey"
-                    }
-                }, 
+                    ]
+                },
                 {
-                    "stats": [
+                    team: {
+                        id: 9368,
+                        name: "Djurgårdens IF FF",
+                        shortName: "Djurgården",
+                        link: "http://www.everysport.com/sport/fotboll/team/djurgaardens-if-ff/9368"
+                    },
+                    positionStatuses: [
                         {
-                            "name": "gp", 
-                            "value": 22
-                        }, 
-                        {
-                            "name": "w", 
-                            "value": 10
-                        }, 
-                        {
-                            "name": "l", 
-                            "value": 11
-                        }, 
-                        {
-                            "name": "gf", 
-                            "value": 64
-                        }, 
-                        {
-                            "name": "ga", 
-                            "value": 67
-                        }, 
-                        {
-                            "name": "gd", 
-                            "value": -3
-                        }, 
-                        {
-                            "name": "pts", 
-                            "value": 21
+                            type: "relegation",
+                            name: "Nedflyttning"
                         }
-                    ], 
-                    "team": {
-                        "id": 28069, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/philadelphia-flyers/28069", 
-                        "name": "Philadelphia Flyers", 
-                        "shortName": "Philadelphia"
-                    }
-                }, 
-                {
-                    "stats": [
+                    ],
+                    stats: [
                         {
-                            "name": "gp", 
-                            "value": 19
-                        }, 
+                            name: "gp",
+                            value: 4
+                        },
                         {
-                            "name": "w", 
-                            "value": 9
-                        }, 
+                            name: "w",
+                            value: 0
+                        },
                         {
-                            "name": "l", 
-                            "value": 8
-                        }, 
+                            name: "d",
+                            value: 1
+                        },
                         {
-                            "name": "gf", 
-                            "value": 48
-                        }, 
+                            name: "l",
+                            value: 3
+                        },
                         {
-                            "name": "ga", 
-                            "value": 49
-                        }, 
+                            name: "gf",
+                            value: 1
+                        },
                         {
-                            "name": "gd", 
-                            "value": -1
-                        }, 
+                            name: "ga",
+                            value: 10
+                        },
                         {
-                            "name": "pts", 
-                            "value": 20
+                            name: "gd",
+                            value: -9
+                        },
+                        {
+                            name: "pts",
+                            value: 1
                         }
-                    ], 
-                    "team": {
-                        "id": 28070, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/new-york-rangers/28070", 
-                        "name": "New York Rangers", 
-                        "shortName": "NY Rangers"
-                    }
-                }, 
-                {
-                    "stats": [
-                        {
-                            "name": "gp", 
-                            "value": 21
-                        }, 
-                        {
-                            "name": "w", 
-                            "value": 8
-                        }, 
-                        {
-                            "name": "l", 
-                            "value": 11
-                        }, 
-                        {
-                            "name": "gf", 
-                            "value": 61
-                        }, 
-                        {
-                            "name": "ga", 
-                            "value": 73
-                        }, 
-                        {
-                            "name": "gd", 
-                            "value": -12
-                        }, 
-                        {
-                            "name": "pts", 
-                            "value": 18
-                        }
-                    ], 
-                    "team": {
-                        "id": 28052, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/new-york-islanders/28052", 
-                        "name": "New York Islanders", 
-                        "shortName": "NY Islanders"
-                    }
-                }
-            ]
-        }, 
-        {
-            "labels": [
-                {
-                    "name": "Eastern Conference", 
-                    "type": "conference"
-                }, 
-                {
-                    "name": "Northeast Division", 
-                    "type": "division"
-                }
-            ], 
-            "standings": [
-                {
-                    "stats": [
-                        {
-                            "name": "gp", 
-                            "value": 20
-                        }, 
-                        {
-                            "name": "w", 
-                            "value": 13
-                        }, 
-                        {
-                            "name": "l", 
-                            "value": 4
-                        }, 
-                        {
-                            "name": "gf", 
-                            "value": 58
-                        }, 
-                        {
-                            "name": "ga", 
-                            "value": 43
-                        }, 
-                        {
-                            "name": "gd", 
-                            "value": 15
-                        }, 
-                        {
-                            "name": "pts", 
-                            "value": 29
-                        }
-                    ], 
-                    "team": {
-                        "id": 28066, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/montreal-canadiens/28066", 
-                        "name": "Montreal Canadiens", 
-                        "shortName": "Montreal"
-                    }
-                }, 
-                {
-                    "stats": [
-                        {
-                            "name": "gp", 
-                            "value": 17
-                        }, 
-                        {
-                            "name": "w", 
-                            "value": 13
-                        }, 
-                        {
-                            "name": "l", 
-                            "value": 2
-                        }, 
-                        {
-                            "name": "gf", 
-                            "value": 51
-                        }, 
-                        {
-                            "name": "ga", 
-                            "value": 36
-                        }, 
-                        {
-                            "name": "gd", 
-                            "value": 15
-                        }, 
-                        {
-                            "name": "pts", 
-                            "value": 28
-                        }
-                    ], 
-                    "team": {
-                        "id": 28065, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/boston-bruins/28065", 
-                        "name": "Boston Bruins", 
-                        "shortName": "Boston"
-                    }
-                }, 
-                {
-                    "stats": [
-                        {
-                            "name": "gp", 
-                            "value": 21
-                        }, 
-                        {
-                            "name": "w", 
-                            "value": 12
-                        }, 
-                        {
-                            "name": "l", 
-                            "value": 6
-                        }, 
-                        {
-                            "name": "gf", 
-                            "value": 49
-                        }, 
-                        {
-                            "name": "ga", 
-                            "value": 39
-                        }, 
-                        {
-                            "name": "gd", 
-                            "value": 10
-                        }, 
-                        {
-                            "name": "pts", 
-                            "value": 27
-                        }
-                    ], 
-                    "team": {
-                        "id": 28050, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/ottawa-senators/28050", 
-                        "name": "Ottawa Senators", 
-                        "shortName": "Ottawa"
-                    }
-                }, 
-                {
-                    "stats": [
-                        {
-                            "name": "gp", 
-                            "value": 22
-                        }, 
-                        {
-                            "name": "w", 
-                            "value": 13
-                        }, 
-                        {
-                            "name": "l", 
-                            "value": 9
-                        }, 
-                        {
-                            "name": "gf", 
-                            "value": 64
-                        }, 
-                        {
-                            "name": "ga", 
-                            "value": 55
-                        }, 
-                        {
-                            "name": "gd", 
-                            "value": 9
-                        }, 
-                        {
-                            "name": "pts", 
-                            "value": 26
-                        }
-                    ], 
-                    "team": {
-                        "id": 28049, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/toronto-maple-leafs/28049", 
-                        "name": "Toronto Maple Leafs", 
-                        "shortName": "Toronto"
-                    }
-                }, 
-                {
-                    "stats": [
-                        {
-                            "name": "gp", 
-                            "value": 21
-                        }, 
-                        {
-                            "name": "w", 
-                            "value": 8
-                        }, 
-                        {
-                            "name": "l", 
-                            "value": 12
-                        }, 
-                        {
-                            "name": "gf", 
-                            "value": 54
-                        }, 
-                        {
-                            "name": "ga", 
-                            "value": 67
-                        }, 
-                        {
-                            "name": "gd", 
-                            "value": -13
-                        }, 
-                        {
-                            "name": "pts", 
-                            "value": 17
-                        }
-                    ], 
-                    "team": {
-                        "id": 28051, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/buffalo-sabres/28051", 
-                        "name": "Buffalo Sabres", 
-                        "shortName": "Buffalo"
-                    }
-                }
-            ]
-        }, 
-        {
-            "labels": [
-                {
-                    "name": "Eastern Conference", 
-                    "type": "conference"
-                }, 
-                {
-                    "name": "Southeast Division", 
-                    "type": "division"
-                }
-            ], 
-            "standings": [
-                {
-                    "stats": [
-                        {
-                            "name": "gp", 
-                            "value": 19
-                        }, 
-                        {
-                            "name": "w", 
-                            "value": 10
-                        }, 
-                        {
-                            "name": "l", 
-                            "value": 8
-                        }, 
-                        {
-                            "name": "gf", 
-                            "value": 54
-                        }, 
-                        {
-                            "name": "ga", 
-                            "value": 55
-                        }, 
-                        {
-                            "name": "gd", 
-                            "value": -1
-                        }, 
-                        {
-                            "name": "pts", 
-                            "value": 21
-                        }
-                    ], 
-                    "team": {
-                        "id": 28056, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/carolina-hurricanes/28056", 
-                        "name": "Carolina Hurricanes", 
-                        "shortName": "Carolina"
-                    }
-                }, 
-                {
-                    "stats": [
-                        {
-                            "name": "gp", 
-                            "value": 20
-                        }, 
-                        {
-                            "name": "w", 
-                            "value": 10
-                        }, 
-                        {
-                            "name": "l", 
-                            "value": 9
-                        }, 
-                        {
-                            "name": "gf", 
-                            "value": 55
-                        }, 
-                        {
-                            "name": "ga", 
-                            "value": 61
-                        }, 
-                        {
-                            "name": "gd", 
-                            "value": -6
-                        }, 
-                        {
-                            "name": "pts", 
-                            "value": 21
-                        }
-                    ], 
-                    "team": {
-                        "id": 109005, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/winnipeg-jets/109005", 
-                        "name": "Winnipeg Jets", 
-                        "shortName": "Winnipeg"
-                    }
-                }, 
-                {
-                    "stats": [
-                        {
-                            "name": "gp", 
-                            "value": 20
-                        }, 
-                        {
-                            "name": "w", 
-                            "value": 9
-                        }, 
-                        {
-                            "name": "l", 
-                            "value": 10
-                        }, 
-                        {
-                            "name": "gf", 
-                            "value": 71
-                        }, 
-                        {
-                            "name": "ga", 
-                            "value": 64
-                        }, 
-                        {
-                            "name": "gd", 
-                            "value": 7
-                        }, 
-                        {
-                            "name": "pts", 
-                            "value": 19
-                        }
-                    ], 
-                    "team": {
-                        "id": 28055, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/tampa-bay-lightning/28055", 
-                        "name": "Tampa Bay Lightning", 
-                        "shortName": "Tampa Bay"
-                    }
-                }, 
-                {
-                    "stats": [
-                        {
-                            "name": "gp", 
-                            "value": 20
-                        }, 
-                        {
-                            "name": "w", 
-                            "value": 6
-                        }, 
-                        {
-                            "name": "l", 
-                            "value": 9
-                        }, 
-                        {
-                            "name": "gf", 
-                            "value": 51
-                        }, 
-                        {
-                            "name": "ga", 
-                            "value": 73
-                        }, 
-                        {
-                            "name": "gd", 
-                            "value": -22
-                        }, 
-                        {
-                            "name": "pts", 
-                            "value": 17
-                        }
-                    ], 
-                    "team": {
-                        "id": 28047, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/florida-panthers/28047", 
-                        "name": "Florida Panthers", 
-                        "shortName": "Florida"
-                    }
-                }, 
-                {
-                    "stats": [
-                        {
-                            "name": "gp", 
-                            "value": 19
-                        }, 
-                        {
-                            "name": "w", 
-                            "value": 7
-                        }, 
-                        {
-                            "name": "l", 
-                            "value": 11
-                        }, 
-                        {
-                            "name": "gf", 
-                            "value": 52
-                        }, 
-                        {
-                            "name": "ga", 
-                            "value": 59
-                        }, 
-                        {
-                            "name": "gd", 
-                            "value": -7
-                        }, 
-                        {
-                            "name": "pts", 
-                            "value": 15
-                        }
-                    ], 
-                    "team": {
-                        "id": 28073, 
-                        "link": "http://www.everysport.com/sport/ishockey/team/washington-capitals/28073", 
-                        "name": "Washington Capitals", 
-                        "shortName": "Washington"
-                    }
+                    ]
                 }
             ]
         }
