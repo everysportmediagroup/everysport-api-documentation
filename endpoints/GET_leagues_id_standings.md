@@ -19,6 +19,7 @@ The league standings, commonly visualized as a table, is essentially a list of t
 * id (required) - The League ID
 * apikey (required) - your APIKEY
 * type - one of 'total' (default), 'home' and 'away' 
+* round - specifies standings after a specific round, eg. '10'. Default is the last played round.
 * size - specifies the amount of statistics data for the teams. Default is 'large' which retrieves all available data. Use  'medium' and 'small' to get less data. 
 * sortKey - the key by which the standings is sorted. Can be any of the attribute names from the Team Stats objects (eg. 'stats.pts') or 'team.name' to sort by the name of the team. By default, sorting is by 'stats.pts'.   
 * callback - used for JSON-P callbacks, the argument should be the name of the callback function, such as 'esResults' 
