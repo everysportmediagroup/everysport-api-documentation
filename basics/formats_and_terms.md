@@ -91,6 +91,8 @@ Each type of game event have its own set of properties.
 * visitingTeamPeriodScore - how many goals the visiting team scored in the period, integer
 
 ### Game events of type 'ORDINARY_TIME_RESULT'
+Only used when the game ends in overtime or penalty shoot out to show what the result was after the ordinary number of periods.
+
 * homeTeamScore - Score for the home team after the ordinary number of periods has been played, integer
 * visitingTeamScore - Score for the visiting team after the ordinary number of periods has been played, integer
 
