@@ -6,7 +6,6 @@
 Returns a list of Event objects.  
 
 ## Parameters
-* id (required) - the League ID
 * apikey (required) - your APIKEY
 * league - a comma-separated list of league IDs, for which to retrieve events.
 * status - a comma-seperated list of one or many status, for which to retrieve events. Can be any status value as defined by the Event object.
