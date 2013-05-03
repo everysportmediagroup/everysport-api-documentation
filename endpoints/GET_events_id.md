@@ -101,7 +101,7 @@ Get detailed information about an event
 	    			    	
     		}
     	],
-	"subGame" : [
+	"subGames" : [
 		{
 			"gameNumber": 1,
 			"homeTeam": {

@@ -80,7 +80,7 @@ A generic object that may represent a game/match regardless of sport.
 
 ## GameEvent object format
 Events from a game, for example goals, penalties and period results.
-Each type of game event have its of set of properties.
+Each type of game event have its own set of properties.
 
 ### All game events:
 * type - Type of game event
@@ -101,9 +101,9 @@ Each type of game event have its of set of properties.
 * penaltyShot - Number of goals made from a penalty shot of the total count for the game event, 0 or 1 when the game event level is detailed, integer
 * team - The team that scored the goal, a Team object in small format
 * player - The player that scored the goal, a Player object in small format
-* assistingPlayer - The players that assisted the goal, Array of Player objects in small format
-* homeTeamScore - Score for the home team after the goal, integer
-* visitingTeamScore - Score for the visiting team after the goal, integer
+* assistingPlayers - The players that assisted the goal, Array of Player objects in small format
+* homeTeamScore - Score for the home team after the goal, only present if the game event level is detailed, integer
+* visitingTeamScore - Score for the visiting team after the goal, only present if the game event level is detailed, integer
 
 ## SubGame object format
 Some events consists of many games that are represented as sub games. This is common in Tennis and Table tennis.
@@ -112,8 +112,8 @@ Some events consists of many games that are represented as sub games. This is co
 * gameNumber - Number for this game in the serie of sub games
 * visitingTeam - a Team object in small format
 * homeTeam - a Team object in small format
-* visitingTeamPlayer - a Player object in small format
-* homeTeamPlayer - a Player object in small format
+* visitingTeamPlayer - optional, a Player object in small format
+* homeTeamPlayer - optional, a Player object in small format
 * scores - Period scores from the game for both teams, Array of objects with homeTeamScore and visitingTeamScore properties. 
 
 ## Team Stats object format
