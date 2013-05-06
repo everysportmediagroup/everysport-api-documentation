@@ -48,23 +48,12 @@ Get detailed information about an event
  	    	"spectators": 7659,    	
     		"arena" : {
     			"id" : 31,
-	    		"name": "Malmö Stadion",
+	    		"name": "Malmï¿½ Stadion",
     		},
 	    	"referees" : ["Chuck Norris", "Jackie Chan"],
 	  },
 	  "gameEventLevel": "DETAILED",
-	  "gameEvents" : [
-		{	
-			"type" : "PERIOD_RESULT",
-			"period": 1,
-			"homeTeamPeriodScore": 1,
-	    		"visitingTeamPeriodScore": 3
-		},
-		{
-			"type" : "ORDINARY_TIME_RESULT",
-			"homeTeamScore": 1,
-	    		"visitingTeamScore": 3
-		},
+	  "gameEvents" : [		
     		{
 			"minute":2,
 			"second": 0,
@@ -82,7 +71,7 @@ Get detailed information about an event
 
 	    		},
 			"assistingPlayers": [{
-	    			"name" : "Markus Näslund",
+	    			"name" : "Markus Nï¿½slund",
 
 	    		}, {
 	    			"name" : "Peter Forsberg",
@@ -101,6 +90,18 @@ Get detailed information about an event
 	    			    	
     		}
     	],
+    	"periodResults" : [
+    		{	
+			"type" : "PERIOD_RESULT",
+			"period": 1,
+			"homeTeamPeriodScore": 1,
+	    		"visitingTeamPeriodScore": 3
+		},
+		{
+			"type" : "ORDINARY_TIME_RESULT",
+			"homeTeamScore": 1,
+	    		"visitingTeamScore": 3
+		}],
 	"subGames" : [
 		{
 			"gameNumber": 1,
@@ -113,7 +114,7 @@ Get detailed information about an event
 			},
 			"visitingTeam": {
 				"id": 1,
-				"name": "Alingsås"
+				"name": "Alingsï¿½s"
 			},
 			"visitingTeamPlayer": {
 				"name": "..."
