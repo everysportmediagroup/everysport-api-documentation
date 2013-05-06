@@ -81,8 +81,15 @@ Get detailed information about an event
 	    		"visitingTeamScore":3
     		},
     		{
-    			"time":14,
-	    		"type" : "PENALTY_WARNING"    		
+    			"minute":2,
+			"second": 0,
+	    		"type" : "PENALTY_WARNING",
+	    		"team" : {
+        			"id": 28065, 
+		                "link": "http://www.everysport.com/sport/ishockey/team/boston-bruins/28065", 
+                		"name": "Boston Bruins", 
+		                "shortName": "Boston"
+		        },
 	    		"player" : {
 	    			"name" : "Peter Forsberg",
 
