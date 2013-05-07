@@ -105,9 +105,9 @@ Get detailed information about an event
 				"shortName": "Hammarby",			
 			},
 			"count": 1,
-			"type: "PENALTY",
+			"type": "PENALTY",
 			"penaltyType": "TEN_MIN",
-			"level"": "AGGREGATED"
+			"level": "AGGREGATED"
 		}
     	],
     	"periodResults" : [
