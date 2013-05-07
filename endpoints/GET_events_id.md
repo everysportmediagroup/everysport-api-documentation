@@ -55,6 +55,7 @@ Get detailed information about an event
 	  "gameEventLevel": "DETAILED",
 	  "gameEvents" : [		
     		{
+    			"level" :"DETAILED",
 			"minute":2,
 			"second": 0,
 			"count": 1,
@@ -81,6 +82,7 @@ Get detailed information about an event
 	    		"visitingTeamScore":3
     		},
     		{
+    			"level" :"DETAILED",
     			"minute":2,
 			"second": 0,
 	    		"type" : "PENALTY_WARNING",
@@ -95,7 +97,18 @@ Get detailed information about an event
 
 	    		}
 	    			    	
-    		}
+    		},
+    		{
+			"team": {
+				"id": 1208,
+				"name": "Hammarby IF",
+				"shortName": "Hammarby",			
+			},
+			"count": 1,
+			"type: "PENALTY",
+			"penaltyType": "TEN_MIN",
+			"level"": "AGGREGATED"
+		}
     	],
     	"periodResults" : [
     		{	
