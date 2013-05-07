@@ -18,6 +18,7 @@ Returns a list of Event objects.
 * team - a comma-separated list of one or many team IDs, for which to retrieve events.  
 * sport - a comma-separated list of one or many sport IDs, for which to retrieve events.  
 * callback - used for JSON-P callbacks, the argument should be the name of the callback function, such as 'esEvents'
+* fields - Include detailed data about events. Can be 'all'.
 
 ## Return format
 

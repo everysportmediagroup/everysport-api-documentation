@@ -48,7 +48,7 @@ Get detailed information about an event
  	    	"spectators": 7659,    	
     		"arena" : {
     			"id" : 31,
-	    		"name": "Malm� Stadion",
+	    		"name": "Malmö Stadion",
     		},
 	    	"referees" : ["Chuck Norris", "Jackie Chan"],
 	  },
@@ -72,7 +72,7 @@ Get detailed information about an event
 
 	    		},
 			"assistingPlayers": [{
-	    			"name" : "Markus N�slund",
+	    			"name" : "Markus Näslund",
 
 	    		}, {
 	    			"name" : "Peter Forsberg",
@@ -134,7 +134,7 @@ Get detailed information about an event
 			},
 			"visitingTeam": {
 				"id": 1,
-				"name": "Alings�s"
+				"name": "Alingsås"
 			},
 			"visitingTeamPlayer": {
 				"name": "..."
