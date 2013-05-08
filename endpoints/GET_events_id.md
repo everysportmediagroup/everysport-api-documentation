@@ -8,6 +8,7 @@ Get detailed information about an event
 ## Parameters
 * id (required) - the Event ID
 * apikey (required) - your APIKEY
+* fields - Include detailed data about the event. Can be 'all'.
 
 ## Return format
 
