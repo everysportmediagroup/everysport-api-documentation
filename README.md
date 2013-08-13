@@ -19,6 +19,13 @@ The API is REST API with JSON as the return format for all endpoints.
 ## Endpoints
 All endpoints are documented in [endpoints](endpoints/)
 
+## SDKs
+The official [Java SDK](https://github.com/menmo/everysport-java-sdk) is maintained by Menmo. 
+
+Here are some additional SDKs you can find on GitHub:
+* [Python](https://github.com/peterstark72/everysport) by [peterstark72](https://github.com/peterstark72)
+
+
 ## Apply for an API key
 In order to use the API you need an API key, here are a few things to bear in mind before you get started:
 
@@ -35,14 +42,20 @@ The full Terms of Use are [here](/basics/terms_of_use.md).
 To get an API key, please send us an [email](mailto:support@everysport.com) to <support@everysport.com> with the following information: 
 * Your email address
 * What you will use the key for: commercial or non-commercial use.
+* The domain where the Everysport data will be published (the API-key will be associated with the domain)
 * Brief description of the app you are building. 
 * Statement saying you agree to comply with the Everysport API [terms of use](/basics/terms_of_use.md)
 
 We contact you as soon as we can. 
 
+## Discussions Google Groups
+Please join the [Everysport Developer Group](https://groups.google.com/d/forum/everysport-developer)
+
 ## Questions on StackOverflow 
 Use the 'everysport' tag on [StackOverflow](http://stackoverflow.com/questions/tagged/everysport) to find questions and answers about the API.
 
+## Other Resources
+Applications that use the API are sometimes published on the [Menmo blog](http://www.menmo.se/blogg/) (in swedish).
 
 
 
