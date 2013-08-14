@@ -20,7 +20,7 @@ The API is REST API with JSON as the return format for all endpoints.
 All endpoints are documented in [endpoints](endpoints/)
 
 ## SDKs
-The official [Java SDK](https://github.com/menmo/everysport-java-sdk) is maintained by Menmo. 
+The official [Java SDK](https://github.com/menmo/everysport-java-sdk) and [PHP SDK](https://github.com/menmo/everysport-php-sdk) is maintained by Menmo. 
 
 Here are some additional SDKs you can find on GitHub:
 * [Python](https://github.com/peterstark72/everysport) by [peterstark72](https://github.com/peterstark72)
