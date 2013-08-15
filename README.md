@@ -24,7 +24,7 @@ The official [Java SDK](https://github.com/menmo/everysport-java-sdk) and [PHP S
 
 Here are some additional SDKs you can find on GitHub:
 * [Python](https://github.com/peterstark72/everysport) by [peterstark72](https://github.com/peterstark72)
-
+* [Node](https://github.com/carlgrundberg/everysport-node-sdk) by [carlgrundberg](https://github.com/carlgrundberg)
 
 ## Apply for an API key
 In order to use the API you need an API key, here are a few things to bear in mind before you get started:
