@@ -49,10 +49,8 @@ To get an API key, please send us an [email](mailto:support@everysport.com) to <
 We contact you as soon as we can. 
 
 ## Discussions Google Groups
-Please join the [Everysport Developer Group](https://groups.google.com/d/forum/everysport-developer)
-
-## Questions on StackOverflow 
-Use the 'everysport' tag on [StackOverflow](http://stackoverflow.com/questions/tagged/everysport) to find questions and answers about the API.
+Feel free to ask questions in our [Everysport Developer Group](https://groups.google.com/d/forum/everysport-developer).
+We will also post updates about new releases there.
 
 ## Other Resources
 Applications that use the API are sometimes published on the [Menmo blog](http://www.menmo.se/blogg/) (in swedish).
