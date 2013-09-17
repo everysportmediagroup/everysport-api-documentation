@@ -6,7 +6,7 @@ Everysport reserves the right to alter, delete and/or add to the Everysport Agre
 If you disagree with any part of the API Terms of Use or any other terms of the Everysport Agreement, Everysport does not grant you a license to use the Everysport APIs and you are directed to immediately cease using the Everysport APIs.
 
 ## Services
-1. The Everysport API is an Everysport AB (“Everysport”) service that allows registered users ("API Users") to retrieve data as described at http://developer.everysport.com (the “Everysport Data”).
+1. The Everysport API is an Everysport AB (“Everysport”) service that allows registered users ("API Users") to retrieve data from everysport.com (the “Everysport Data”).
 2. Everysport reserves the right to modify or discontinue the Everysport API or a portion or attribute thereof, or the offering of any information, good, content, product or service with or without notice. Everysport shall not be liable to you or any third party should Everysport exercise its right to modify or discontinue the Everysport API or part of it.
 
 ## Registration
