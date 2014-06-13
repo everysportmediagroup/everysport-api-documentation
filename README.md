@@ -1,6 +1,10 @@
 # Everysport API
 The Everysport API gives you access to tables, results and events for 90,000 teams and 1,500,000 matches from [everysport.com](http://www.everysport.com).  
 
+Game events (e.g. goals) reported live on everysport.com is available via the API. For example, if your team uses Everysport for live reports, you can build applications with the data from the API. 
+
+Access to game reports from other leagues (e.g. International) can also be provided by Everysport. Contact <support@everysport.com> for details. 
+
 The API is REST API with JSON as the return format for all endpoints. 
 
 ***
