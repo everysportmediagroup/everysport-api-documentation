@@ -17,11 +17,12 @@ Returns a list of Event objects for the league.
 * fromDate - filters out events after a specific date, Date in short format
 * toDate - filters out events before a specific date, Date in short format
 * round - a comma-seperated list of one or many rounds, for which to retrieve events.
-* limit - Limits the number of events, positive integer
-* offset - Indicates where to start in the list. Defaults to 0, positive integer
+* limit - limits the number of events, positive integer
+* offset - indicates where to start in the list. Defaults to 0, positive integer
 * sort - the property and order by which the events is sorted. Can be 'startDate:asc', 'startDate:desc', 'round:asc' or 'round:desc'. Default is 'startDate:asc'.
 * team - a comma-separated list of one or many team IDs, for which to retrieve events.  
-* callback - used for JSON-P callbacks, the argument should be the name of the callback function, such as 'esEvents'
+* callback - used for JSON-P callbacks, the argument should be the name of the callback function, such as 'esEvents'.
+* municipality - filters out events in a given municipality. Use 'municipality', 'homeTeam.municipality' or 'visitingTeam.municipality'. Use a comma-separated list to get events from two or more municipalities.
 
 
 ## Example Request
