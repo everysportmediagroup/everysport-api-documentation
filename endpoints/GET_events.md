@@ -26,95 +26,149 @@ Returns a list of Event objects.
 ```javascript	
 {
     "credit": {
-        "link": "http://www.everysport.com", 
-        "logoUrl": "http://c.static.es-cdn.net/files/everysport2/images/icons/event/small/everysport.png", 
-        "message": "Provided by Everysport.com"
-    }, 
+        "message": "Provided by Everysport.com",
+        "link": "http://www.everysport.com",
+        "logoUrl": "http://c.static.es-cdn.net/files/everysport2/images/icons/event/small/everysport.png"
+    },
+    "metadata": {
+        "limit": 2,
+        "count": 2,
+        "totalCount": 240,
+        "offset": 0
+    },
     "events": [
         {
-            "homeTeam": {
-                "id": 28065, 
-                "link": "http://www.everysport.com/sport/ishockey/team/boston-bruins/28065", 
-                "name": "Boston Bruins", 
-                "shortName": "Boston"
-            }, 
-            "id": 2136643, 
-            "league": {
-                "id": 58878, 
-                "name": "NHL", 
-                "sport": {
-                    "id": 2, 
-                    "name": "Ishockey"
+            "id": 2324212,
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "http://api.everysport.com/v1/events/2324212"
                 }
-            }, 
-            "round": 35, 
-            "startDate": "2013-04-03T01:00+0200", 
-            "status": "UPCOMING", 
+            ],
+            "startDate": "2014-03-30T15:00+0200",
+            "round": 1,
+            "status": "FINISHED",
+            "homeTeam": {
+                "id": 19721,
+                "name": "IF Brommapojkarna",
+                "shortName": "Brommapojk",
+                "link": "http://www.everysport.com/sport/fotboll/team/if-brommapojkarna/19721",
+                "municipality": {
+                    "id": 180,
+                    "name": "Stockholm"
+                }
+            },
             "visitingTeam": {
-                "id": 28050, 
-                "link": "http://www.everysport.com/sport/ishockey/team/ottawa-senators/28050", 
-                "name": "Ottawa Senators", 
-                "shortName": "Ottawa"
+                "id": 9374,
+                "name": "Kalmar FF",
+                "shortName": "Kalmar FF",
+                "link": "http://www.everysport.com/sport/fotboll/team/kalmar-ff/9374",
+                "municipality": {
+                    "id": 880,
+                    "name": "Kalmar"
+                }
+            },
+            "homeTeamScore": 1,
+            "visitingTeamScore": 2,
+            "finishedTimeStatus": "ORDINARY_TIME",
+            "league": {
+                "id": 63925,
+                "links": [
+                    {
+                        "rel": "self",
+                        "href": "http://api.everysport.com/v1/leagues/63925"
+                    }
+                ],
+                "name": "Allsvenskan",
+                "level": "Allsvenskan",
+                "sport": {
+                    "id": 10,
+                    "links": [
+                        {
+                            "rel": "self",
+                            "href": "http://api.everysport.com/v1/sports/10"
+                        }
+                    ],
+                    "name": "Fotboll"
+                },
+                "teamClass": "MEN",
+                "startDate": "2014-03-30T00:00+0100",
+                "endDate": "2014-11-02T00:00+0100"
+            },
+            "facts": {
+                "arena": {
+                    "id": 110295,
+                    "name": "Grimsta IP 1"
+                },
+                "spectators": 2028
             }
-        }, 
+        },
         {
-            "homeTeam": {
-                "id": 28052, 
-                "link": "http://www.everysport.com/sport/ishockey/team/new-york-islanders/28052", 
-                "name": "New York Islanders", 
-                "shortName": "NY Islanders"
-            }, 
-            "id": 2136644, 
-            "league": {
-                "id": 58878, 
-                "name": "NHL", 
-                "sport": {
-                    "id": 2, 
-                    "name": "Ishockey"
+            "id": 2324213,
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "http://api.everysport.com/v1/events/2324213"
                 }
-            }, 
-            "round": 35, 
-            "startDate": "2013-04-03T01:00+0200", 
-            "status": "UPCOMING", 
-            "visitingTeam": {
-                "id": 109005, 
-                "link": "http://www.everysport.com/sport/ishockey/team/winnipeg-jets/109005", 
-                "name": "Winnipeg Jets", 
-                "shortName": "Winnipeg"
-            }
-        }, 
-        {
+            ],
+            "startDate": "2014-03-30T15:00+0200",
+            "round": 1,
+            "status": "FINISHED",
             "homeTeam": {
-                "id": 28056, 
-                "link": "http://www.everysport.com/sport/ishockey/team/carolina-hurricanes/28056", 
-                "name": "Carolina Hurricanes", 
-                "shortName": "Carolina"
-            }, 
-            "id": 2136645, 
-            "league": {
-                "id": 58878, 
-                "name": "NHL", 
-                "sport": {
-                    "id": 2, 
-                    "name": "Ishockey"
+                "id": 9389,
+                "name": "Mjällby AIF",
+                "shortName": "Mjällby",
+                "link": "http://www.everysport.com/sport/fotboll/team/mjaellby-aif/9389",
+                "municipality": {
+                    "id": 1083,
+                    "name": "Sölvesborg"
                 }
-            }, 
-            "round": 35, 
-            "startDate": "2013-04-03T01:00+0200", 
-            "status": "UPCOMING", 
+            },
             "visitingTeam": {
-                "id": 28073, 
-                "link": "http://www.everysport.com/sport/ishockey/team/washington-capitals/28073", 
-                "name": "Washington Capitals", 
-                "shortName": "Washington"
+                "id": 9400,
+                "name": "Gefle IF",
+                "shortName": "Gefle",
+                "link": "http://www.everysport.com/sport/fotboll/team/gefle-if/9400",
+                "municipality": {
+                    "id": 2180,
+                    "name": "Gävle"
+                }
+            },
+            "homeTeamScore": 2,
+            "visitingTeamScore": 2,
+            "finishedTimeStatus": "ORDINARY_TIME",
+            "league": {
+                "id": 63925,
+                "links": [
+                    {
+                        "rel": "self",
+                        "href": "http://api.everysport.com/v1/leagues/63925"
+                    }
+                ],
+                "name": "Allsvenskan",
+                "level": "Allsvenskan",
+                "sport": {
+                    "id": 10,
+                    "links": [
+                        {
+                            "rel": "self",
+                            "href": "http://api.everysport.com/v1/sports/10"
+                        }
+                    ],
+                    "name": "Fotboll"
+                },
+                "teamClass": "MEN",
+                "startDate": "2014-03-30T00:00+0100",
+                "endDate": "2014-11-02T00:00+0100"
+            },
+            "facts": {
+                "arena": {
+                    "id": 61382,
+                    "name": "Strandvallen"
+                },
+                "spectators": 3532
             }
         }
-    ], 
-    "metadata": {
-        "count": 3, 
-        "limit": 3, 
-        "offset": 0, 
-        "totalCount": 189
-    }
+    ]
 }
 ```
