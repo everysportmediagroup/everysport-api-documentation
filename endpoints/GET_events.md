@@ -21,6 +21,11 @@ Returns a list of Event objects.
 * fields - include detailed data about events. Can be 'all'.
 * municipality - filters out events in a given municipality. Use 'municipality', 'homeTeam.municipality' or 'visitingTeam.municipality'. Use a comma-separated list to get events from two or more municipalities.
 
+## Example Request
+```
+GET http://api.everysport.com/v1/events?league=63925&limit=2
+```
+
 ## Return format
 
 ```javascript	
