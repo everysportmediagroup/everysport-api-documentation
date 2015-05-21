@@ -19,6 +19,7 @@ Returns a list of Event objects.
 * sport - a comma-separated list of one or many sport IDs, for which to retrieve events.  
 * callback - used for JSON-P callbacks, the argument should be the name of the callback function, such as 'esEvents'
 * fields - Include detailed data about events. Can be 'all'.
+* liveScore - a boolean for filtering event that have a live score source.
 
 ## Return format
 
