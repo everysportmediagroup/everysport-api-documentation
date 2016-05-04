@@ -24,29 +24,29 @@ GET http://api.everysport.com/v1/leagues/74542/teams?facts=true
 
 ```javascript
 {
-  "credit": {
-    "message": "Provided by Everysport.com",
-    "link": "http://www.everysport.com",
-    "logoUrl": "http://c.static.es-cdn.net/files/everysport2/images/icons/event/small/everysport.png"
-  },
-  metadata: {
-    count: 2
-  },
-  teams: [
-    {
-      id: 58582,
-      name: "Hovshaga AIF",
-      shortName: "Hovshaga",
-      abbreviation: "Hovshaga",
-      facts: true
-    },
-    {
-      id: 58580,
-      name: "IBK Vöikers",
-      shortName: "Vöikers",
-      abbreviation: "Vöikers",
-      facts: true
-    }
-  ]
+	"credit": {
+    		"message": "Provided by Everysport.com",
+    		"link": "http://www.everysport.com",
+    		"logoUrl": "http://c.static.es-cdn.net/files/everysport2/images/icons/event/small/everysport.png"
+  	},
+  	metadata: {
+    		count: 2
+  	},
+  	teams: [
+    		{
+      			id: 58582,
+      			name: "Hovshaga AIF",
+      			shortName: "Hovshaga",
+      			abbreviation: "Hovshaga",
+      			facts: true
+    		},
+    		{
+      			id: 58580,
+			name: "IBK Vöikers",
+      			shortName: "Vöikers",
+      			abbreviation: "Vöikers",
+      			facts: true
+    		}
+  	]
 }
 ```
