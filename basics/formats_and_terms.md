@@ -42,6 +42,7 @@ Includes the following data:
 * name - the full name of the league, string
 * teamClass - one of 'men','women','mixed'
 * sport - a Sport object
+* liveScore - boolean, if true events in leagues has livescore
 
 ## Team object format
 Represents a team, regardless of sport.
@@ -71,6 +72,7 @@ A generic object that may represent a game/match regardless of sport.
 * visitingTeam - a Team object in small format
 * homeTeam - a Team object in small format
 * round - the round in which the game belongs, integer or null 
+* liveScore - boolean, if true event has livescore
 
 ### Extended format
 * facts - Details information such as spectators, arena and referees
