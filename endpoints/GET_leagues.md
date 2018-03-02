@@ -11,6 +11,7 @@ Use the 'sport' parameter to limit the result to leagues for specific sports.
 * apikey (required) - your APIKEY
 * sport (optional) - comma separated list of sport ID to retrieve leagues for, for example 10 is football and 2 is ice hockey. 
 * teamClass (optional) - comma separated list of team classes to retrieve leagues for, for example 'men,women'
+* level (optional) - comma seperated list of levels to retrieve leagues for, for example 'Division 2'
 * country (optional) - country to retrive leagues for, support only 'se' (Sweden) as country.
 * limit (optional) - Limits the number of items trying to retrieve, positive integer
 * offset (optiona) - Indicates where to start in the list. Defaults to 0, positive integer
