@@ -38,8 +38,10 @@ Includes the following data:
 Represents a league, regardless of sport.
 
 Includes the following data:
-* id - a unique league  id, integer
+* id - a unique league id (per season), integer 
 * name - the full name of the league, string
+* immutableId - a unique league id (same for all seasons), integer (optional)
+* level - level of the league, for example 'Division 2', string
 * teamClass - one of 'men','women','mixed'
 * sport - a Sport object
 * liveScore - boolean, if true events in leagues has livescore
