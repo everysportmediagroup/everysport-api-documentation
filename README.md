@@ -62,9 +62,6 @@ Here are some additional SDKs you can find on GitHub:
 * [Python](https://github.com/peterstark72/everysport) by [Peter Stark](https://github.com/peterstark72)
 * [Node](https://github.com/carlgrundberg/everysport-node-sdk) by [Carl Grundberg](https://github.com/carlgrundberg)
 
-## Other Resources
-Applications that use the API are sometimes published on the [Menmo blog](http://www.menmo.se/blogg/) (in swedish).
-
 
 
 
